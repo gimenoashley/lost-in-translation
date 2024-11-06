@@ -1,0 +1,91 @@
+%   Filename    : chapter_4.tex 
+\chapter{Research Methodology}
+This chapter lists and discusses the specific steps and activities that will be performed  to accomplish the project. 
+The discussion covers the activities from pre-proposal to Final SP Writing.
+
+\section{Research Activities}
+\subsection{Creation of the dataset} 
+Ashley Joy Gimeno will be in-charge of creating a dataset of sentences containing Generation Alpha slangs and providing a formal translation of said sentence. This might involve data scraping ,reliance on existing dataset, or any other suitable method of obtaining it. This should last for a week and will serve as the training and testing information for the large language model during fine-tuning. 
+
+\subsection{Identification of potential LLM to be used.} 
+Carl Jorenz Gimeno will be tasked with finding potential models for the project and comparing them based on existing results. Having existing study using LoRA would be appreciated but does not solely determine it being used for this study. This should last for a week and a report on the prospect models will be created, detailing their strengths and weaknesses.
+
+\subsection{Lookup on available GPU on demand services} 
+Neil Bryan Flauta will be tasked to find any reputable services that sell computing power. This is essential as the group does not have direct access to hardware necessary to fine-tune the selected model.
+
+\subsection{Study on LoRA implementation for LLM}
+Carl Jorenz Gimeno will be in-charge of studying on how LoRA is implemented to LLMs. This will require reading various guides, primarily ones created by HuggingFace as they are the creators of the model to be used and has several in-depth guides in fine-tuning models in general. This should last a week and Carl Jorenz Gimeno is expected to have the required knowledge by the end of it.
+
+\subsection{Preprocessing of data} 
+Ashley Joy Gimeno will be tasked with preprocessing the data. Their task is to ensure that all sentences contain at least one slang and all the formal translation of the sentence is both grammatically correct and semantically correct. As LoRA does not tamper with existing knowledge of the model \cite{hu2021loralowrankadaptationlarge}, we are free to focus on teaching the model the slang while leveraging its original knowledge to provide proper sentences. In addition, after cleaning up the dataset, it will be split into a training and testing set. This task should last 2-3 weeks or longer based on the number of data points collected. A dataset ready for fine-tuning should be available at the end
+
+\subsection{Prototype implementation of LoRA}
+Carl Jorenz Gimeno will be tasked with the implementation of LoRA on the selected model. This includes applying a prototype to a smaller model and testing the results. Carl Jorenz Gimeno may also opt to use qLoRA instead for the smaller memory requirements at the cost of runtime (Raschka, 2023). Carl Jorenz Gimeno  must implement it using the selected computing service to prevent future changes to adjust to the platform. This should last 4-5 weeks but could take more based on the difficulty of actual implementation. It will serve as the basis of the proper implementation of LoRA on the selected model to prevent longer testing with a massive LLM. A working and correct implementation of LoRA should be available at the end.
+
+\subsection{Implementation of LoRA on selected model}
+Neil Bryan Flauta will be tasked with the final implementation of LoRA on the selected model, based on the prototype created. This should only last 1-2 weeks because the code is already proven and tested as functional. A fine-tuned model is expected to be complete at the end.
+
+\subsection{Implementation on LLM Evaluation Metrics}
+Neil Bryan Flauta will be tasked with studying the evaluation metrics used in LLMs as well as create an implementation of such metrics. It will serve as a basis in which we will compare the fine-tuned model with the base model. This should take 2 weeks and a complete implementation of the metrics should be available at the end.
+
+\subsection{Testing and Analysis of Results}
+Ashley Joy Gimeno will be tasked with testing the trained model using the testing set on the dataset. This would include descriptive information regarding the model and comparison with the original model.
+
+\subsection{Documentation}
+All members are tasked to provide accurate and detailed logs of their activities. It will serve both as documentation and as a progress tracker to determine how far the project is from being done. It will be done every week at the member’s leisure.
+
+
+\section{Calendar of Activities}
+
+	Table \ref{tab:timetableactivities} shows a Gantt chart of the activities.  Each bullet represents approximately
+	one week worth of activity.
+	
+	%
+	%  the following commands will be used for filling up the bullets in the Gantt chart
+	%
+	\newcommand{\weekone}{\textbullet}
+	\newcommand{\weektwo}{\textbullet \textbullet}
+	\newcommand{\weekthree}{\textbullet \textbullet \textbullet}
+	\newcommand{\weekfour}{\textbullet \textbullet \textbullet \textbullet}
+	
+	
+	\begin{table}[ht]  
+		\centering
+		\caption{Timetable of Activities} \vspace{0.25em}
+		\begin{tabular}{|p{2in}|c|c|c|c|c|c|c|c|} \hline
+			\centering Activities (2024-2025) 
+			& Nov & Dec & Jan & Feb & Mar & Apr & May \\ \hline
+			
+			Creation of the dataset      
+			&\weekone~~~ & & & & & &  \\ \hline
+			
+			Identification of potential LLM to be used 
+			&\weekone~~~ & & & &  &  &  \\ \hline
+			
+			Lookup on available GPU on demand services     
+			&\weekone~~~ & & & &  & &   \\ \hline
+			
+			Study on LoRA implementation for LLM     
+			& ~\weekone & & & &  &  &  \\ \hline
+			
+			Preprocessing of data      
+			& ~\weekthree & & & &  & &  \\ \hline
+			
+			Prototype implementation of LoRA 
+			&~~~\weekone & \weekfour & & &  & &   \\ \hline
+			
+			Implementation of LoRA on selected model 
+			& & &\weektwo~~ & &  &  &  \\ \hline
+			
+			Implementation on LLM Evaluation Metrics 
+			& & &\weektwo  & &  &  &  \\ \hline
+			
+			Testing and Analysis of Results 
+			& & & & \weekfour & &  &   \\ \hline
+			
+			Documentation 
+			& ~~\weektwo  & \weekfour & \weekfour & \weekfour & \weekfour & &  \\ \hline
+			
+		\end{tabular}
+		\label{tab:timetableactivities}
+	\end{table}
