@@ -13,17 +13,11 @@ Reallocating 'name_of_file' (item size: 1) to 14 items.
 A level-1 auxiliary file: chapter_2.aux
 Reallocating 'name_of_file' (item size: 1) to 14 items.
 A level-1 auxiliary file: chapter_3.aux
-Reallocating 'name_of_file' (item size: 1) to 14 items.
-A level-1 auxiliary file: chapter_4.aux
-Illegal, another \bibstyle command---line 10 of file main.aux
+Illegal, another \bibstyle command---line 9 of file main.aux
  : \bibstyle
  :          {apacite}
 I'm skipping whatever remains of this command
 Reallocating 'name_of_file' (item size: 1) to 13 items.
-Reallocating 'name_of_file' (item size: 1) to 15 items.
-A level-1 auxiliary file: appendix_A.aux
-Reallocating 'name_of_file' (item size: 1) to 15 items.
-A level-1 auxiliary file: appendix_B.aux
 Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
 Reallocating 'global_strs' (item size: 1) to 4000000 items.
@@ -35,45 +29,45 @@ Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: myreferences.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-You've used 25 entries,
+You've used 26 entries,
             6951 wiz_defined-function locations,
-            1457 strings with 16643 characters,
-and the built_in function-call counts, 48688 in all, are:
-= -- 5933
-> -- 418
-< -- 2289
-+ -- 2349
-- -- 52
-* -- 3108
-:= -- 8841
-add.period$ -- 105
-call.type$ -- 25
-change.case$ -- 459
+            1461 strings with 17002 characters,
+and the built_in function-call counts, 51570 in all, are:
+= -- 6286
+> -- 445
+< -- 2447
++ -- 2548
+- -- 54
+* -- 3304
+:= -- 9372
+add.period$ -- 109
+call.type$ -- 26
+change.case$ -- 478
 chr.to.int$ -- 0
-cite$ -- 50
-duplicate$ -- 1365
-empty$ -- 1987
-format.name$ -- 718
-if$ -- 9252
+cite$ -- 52
+duplicate$ -- 1459
+empty$ -- 2074
+format.name$ -- 768
+if$ -- 9765
 int.to.chr$ -- 0
-int.to.str$ -- 75
+int.to.str$ -- 78
 missing$ -- 0
-newline$ -- 669
-num.names$ -- 202
-pop$ -- 1182
+newline$ -- 701
+num.names$ -- 210
+pop$ -- 1218
 preamble$ -- 1
-purify$ -- 132
+purify$ -- 138
 quote$ -- 0
-skip$ -- 2792
+skip$ -- 2945
 stack$ -- 0
-substring$ -- 2595
-swap$ -- 750
-text.length$ -- 96
+substring$ -- 2812
+swap$ -- 794
+text.length$ -- 100
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 2128
+type$ -- 2208
 warning$ -- 0
-while$ -- 284
+while$ -- 302
 width$ -- 0
-write$ -- 830
+write$ -- 875
 (There was 1 error message)

@@ -672,6 +672,42 @@ Teng, C\BPBI E.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Vacalares%
+, Salas%
+, Babac%
+, Cagalawan%
+\BCBL {}\ \BBA {} Calimpong%
+}{%
+Vacalares%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2023}}%
+}]{%
+Vacalares_Salas_Babac_Cagalawan_Calimpong_2023}
+\APACinsertmetastar {%
+Vacalares_Salas_Babac_Cagalawan_Calimpong_2023}%
+\begin{APACrefauthors}%
+Vacalares, S\BPBI T.%
+, Salas, A\BPBI F\BPBI R.%
+, Babac, B\BPBI J\BPBI S.%
+, Cagalawan, A\BPBI L.%
+\BCBL {}\ \BBA {} Calimpong, C\BPBI D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{Jun}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The intelligibility of internet slangs between
+  millennials and gen zers: A comparative study} {The intelligibility of
+  internet slangs between millennials and gen zers: A comparative
+  study}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Science and Research
+  Archive}{9}{1}{400–409}.
+\newblock
+\begin{APACrefDOI} \doi{10.30574/ijsra.2023.9.1.0456} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Vargas%
 \ \BBA {} Marbella%
 }{%

@@ -5,31 +5,31 @@ The discussion covers the activities from pre-proposal to Final SP Writing.
 
 \section{Research Activities}
 \subsection{Creation of the dataset} 
-Ashley Joy Gimeno will be in-charge of creating a dataset of sentences containing Generation Alpha slangs and providing a formal translation of said sentence. This might involve data scraping ,reliance on existing dataset, or any other suitable method of obtaining it. This should last for a week and will serve as the training and testing information for the large language model during fine-tuning. 
+A dataset of sentences containing Generation Alpha slangs and its formal translation or an approximation of will be created. This will involve data scraping, use of existing datasets, or any other suitable methods of obtaining data. It will serve as both the training and testing dataset for the fine-tuning of the LLM.
 
 \subsection{Identification of potential LLM to be used.} 
-Carl Jorenz Gimeno will be tasked with finding potential models for the project and comparing them based on existing results. Having existing study using LoRA would be appreciated but does not solely determine it being used for this study. This should last for a week and a report on the prospect models will be created, detailing their strengths and weaknesses.
+A report on potential LLMs to use for this study will be created using existing studies about LoRA finetuning and slang translation. This report will include each LLMs strengths and weaknesses as well as existing studies supporting each evidence.
 
 \subsection{Lookup on available GPU on demand services} 
-Neil Bryan Flauta will be tasked to find any reputable services that sell computing power. This is essential as the group does not have direct access to hardware necessary to fine-tune the selected model.
+A research on available GPU rental services will be done to obtain the necessary computing power to conduct the LLM finetuning. These services will be compared with each other to obtain the service fitting for this study.
 
 \subsection{Study on LoRA implementation for LLM}
-Carl Jorenz Gimeno will be in-charge of studying on how LoRA is implemented to LLMs. This will require reading various guides, primarily ones created by HuggingFace as they are the creators of the model to be used and has several in-depth guides in fine-tuning models in general. This should last a week and Carl Jorenz Gimeno is expected to have the required knowledge by the end of it.
+LoRA implementation on LLMs will be studied upon. It will require reading various guides, primarily one created by HuggingFace as they are one of the largest repositories for prebuilt LLMs. They also have several in-depth guides on fine-tuning models for specific purposes..
 
 \subsection{Preprocessing of data} 
-Ashley Joy Gimeno will be tasked with preprocessing the data. Their task is to ensure that all sentences contain at least one slang and all the formal translation of the sentence is both grammatically correct and semantically correct. As LoRA does not tamper with existing knowledge of the model \cite{hu2021loralowrankadaptationlarge}, we are free to focus on teaching the model the slang while leveraging its original knowledge to provide proper sentences. In addition, after cleaning up the dataset, it will be split into a training and testing set. This task should last 2-3 weeks or longer based on the number of data points collected. A dataset ready for fine-tuning should be available at the end
+The dataset will be verified and cleaned before use for the fine-tuning of the model. It is to ensure that all sentences contain at least one slang and their formal translations are grammatically and semantically correct. As LoRA does not tamper with existing knowledge of the model (Hu et al. 2021), we are free to focus on teaching the model the slang while leveraging its original knowledge to provide proper sentences. In addition, after cleaning up the dataset, it will be split into a training and testing set. A dataset for fine-tuning is ready by the end.
 
 \subsection{Prototype implementation of LoRA}
-Carl Jorenz Gimeno will be tasked with the implementation of LoRA on the selected model. This includes applying a prototype to a smaller model and testing the results. Carl Jorenz Gimeno may also opt to use qLoRA instead for the smaller memory requirements at the cost of runtime (Raschka, 2023). Carl Jorenz Gimeno  must implement it using the selected computing service to prevent future changes to adjust to the platform. This should last 4-5 weeks but could take more based on the difficulty of actual implementation. It will serve as the basis of the proper implementation of LoRA on the selected model to prevent longer testing with a massive LLM. A working and correct implementation of LoRA should be available at the end.
+The implementation of LoRA on the selected model will require a prototype implementation to make the full implementation easier and simpler. An option to use qLoRA for the smaller memory requirements in exchange of longer runtime (Raschka, 2023) can be used instead to allow the use of lower end hardware for this study. This prototype will serve as the foundation for the complete implementation of the algorithm and thus, requires it to use the selected computing service to prevent future alterations to adjust to the platform. 
 
 \subsection{Implementation of LoRA on selected model}
-Neil Bryan Flauta will be tasked with the final implementation of LoRA on the selected model, based on the prototype created. This should only last 1-2 weeks because the code is already proven and tested as functional. A fine-tuned model is expected to be complete at the end.
+A full implementation of LoRA will be done using the previously created prototype as a basis. Since it has been proven to work, this step will mostly involve fine-tuning the selected model and fixing any hidden bugs.
 
 \subsection{Implementation on LLM Evaluation Metrics}
-Neil Bryan Flauta will be tasked with studying the evaluation metrics used in LLMs as well as create an implementation of such metrics. It will serve as a basis in which we will compare the fine-tuned model with the base model. This should take 2 weeks and a complete implementation of the metrics should be available at the end.
+Evaluation metrics will be implemented to compare the base model with the fine-tuned one. These metrics will be used to determine if the fine-tuned model will perform better than the base model.
 
 \subsection{Testing and Analysis of Results}
-Ashley Joy Gimeno will be tasked with testing the trained model using the testing set on the dataset. This would include descriptive information regarding the model and comparison with the original model.
+The fine-tuned model will be tested using the testing set of the dataset and will use the evaluation metrics to determine its performance. This would include descriptive information regarding the model and comparison with the original model.
 
 \subsection{Documentation}
 All members are tasked to provide accurate and detailed logs of their activities. It will serve both as documentation and as a progress tracker to determine how far the project is from being done. It will be done every week at the member’s leisure.
