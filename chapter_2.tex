@@ -14,13 +14,12 @@ The studies showed that using internet slang improves relationship between those
 
 
 \section{Existing Studies}
-Khazeni et al. used deep learning to create a model for translating Persian slang text into formal ones \cite{Khazeni}.
-They were able to create a model to convert texts from social media into sentiments for classification.
-Nocon et al. \cite{Nocon_Kho_Arroyo_2018} created a Filipino colloquialism translator using Tensorflow’s sequence-to-sequence model and Moses’ phrase-based statistical machine translation.
-They found that the Moses model was able to create a natural sounding translation, while the Tensorflow model often produced bad sentences.
 
-A slang translation system developed by Ibrahim and Mustafa \cite{Abdulstar_Ibrahim_Shareef_Mustafa_2023} used models obtained from Hugging Face, a repository of pre-trained models, and retrained it using a dataset containing slang and their corresponding definition and example.
-They determined that these models can be tweaked into learning the relationship between the slang and its meaning.
+Khazeni et al. used deep learning to create a model for translating Persian slang text into formal ones. The researchers explored the challenges of translating Persian slang into English within the context of film subtitling, specifically focusing on the performance of three neural machine translation (NMT) systems, namely Google Translate, Targoman, and Farazin. The primary interest of the paper lies in the understanding how these NMTs systems handle  the complexities of slang translation. It was revealed that the NMT systems often struggle to capture the nuances of slang, leading to unnatural and inaccurate translations. Targoman performed best in naturalness, it fell short of human translation quality. This implied the need for specialized algorithms or training data suitable for slang, and potentially human post-editing, to achieve accurate and culturally appropriate translations in this domain \cite{Khazeni}. 
+
+The study by Nocon et al. \cite{Nocon_Kho_Arroyo_2018} explores translating Filipino colloquialisms, such as Conyo and Datkilab, into standardized Filipino, addressing comprehension barriers for non-familiar speakers. Two machine translation (MT) approaches were evaluated: Tensorflow's Sequence-to-Sequence model using Recurrent Neural Networks (RNNs) and Moses' Phrase-based Statistical MT. Moses outperformed Tensorflow on test data due to its handling of phrase combinations and unfamiliar words, while Tensorflow excelled on training data, indicating potential with refinement and more training data. The research underscores the need for robust datasets and highlights the strengths of phrase-based statistical MT in tackling slang translation challenges.
+
+Ibrahim and Mustafa \cite{Abdulstar_Ibrahim_Shareef_Mustafa_2023}  developed a system to translate slang into formal language, addressing challenges posed by slang's informality and variability. Using updated datasets of slang words, formal equivalents, and contextual sentences, they fine-tuned pre-trained models from Hugging Face's Transformer library. While the T5-base model showed promise during training, it performed poorly in testing. In contrast, the “facebook/bart-base” model excelled, demonstrating high accuracy and low loss values. The study highlights the importance of fine-tuning and updated datasets for effective slang translation and emphasizes the potential of transformer models like “facebook/bart-base” in bridging informal and formal language gaps. 
 
 \section{LoRA for Fine Tuning}
 Low Rank Adaptation, or LoRA, is an efficient Parameter Efficient Fine Tuning (PEFT) method proposed by Hu et al \cite{hu2021loralowrankadaptationlarge}.
