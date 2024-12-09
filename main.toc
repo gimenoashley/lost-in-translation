@@ -8,7 +8,7 @@
 \contentsline {section}{\numberline {1.5}Significance of the Research}{3}{}%
 \contentsline {chapter}{\numberline {2}Review of Related Literature}{4}{}%
 \contentsline {section}{\numberline {2.1}Communication Gap between Generations}{4}{}%
-\contentsline {section}{\numberline {2.2}Existing Studies}{4}{}%
+\contentsline {section}{\numberline {2.2}Existing Studies}{5}{}%
 \contentsline {section}{\numberline {2.3}LoRA for Fine Tuning}{5}{}%
 \contentsline {section}{\numberline {2.4}Chapter Summary}{5}{}%
 \contentsline {chapter}{\numberline {3}Research Methodology}{7}{}%
