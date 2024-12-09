@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.31)  15 NOV 2024 12:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.31)  9 DEC 2024 11:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -303,7 +303,8 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 LaTeX Warning: Unused global option(s):
     [onepage].
 
-(main.aux (title_page.aux) (chapter_1.aux) (chapter_2.aux) (chapter_3.aux))
+(main.aux (title_page.aux) (abstract.aux) (chapter_1.aux) (chapter_2.aux)
+(chapter_3.aux) (chapter_4.aux) (appendix_A.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
@@ -377,17 +378,29 @@ LaTeX Info: Redefining \BHBI on input line 130.
 [1
 
 
-{C:/Users/asus/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]) (main.toc
-LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
+{C:/Users/asus/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}])
+\openout2 = `abstract.aux'.
+
+
+(abstract.tex
+LaTeX Font Info:    Trying to load font information for U+msa on input line 10.
+
 
 (C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 10.
+
 
 (C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+
+[1
+
+
+
+]) (main.toc
 
 [2
 
@@ -399,13 +412,21 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 
-[3] (main.lot)
-\tf@lot=\write4
-\openout4 = `main.lot'.
+[3] (main.lof)
+\tf@lof=\write4
+\openout4 = `main.lof'.
 
 
 
 [4
+
+] (main.lot)
+\tf@lot=\write5
+\openout5 = `main.lot'.
+
+
+
+[5
 
 ]
 \openout2 = `chapter_1.aux'.
@@ -420,12 +441,6 @@ Chapter 1.
 ]
 
 [2])
-Overfull \hbox (6.46396pt too wide) in paragraph at lines 46--20
-\OT1/cmr/m/n/12 ing in-ter-gen-er-a-tional com-mu-ni-ca-tion gaps and fos-ter-i
-ng bet-ter un-der-stand-ing across
- []
-
-
 
 [3]
 \openout2 = `chapter_2.aux'.
@@ -440,7 +455,7 @@ Chapter 2.
 
 
 ]
-Overfull \hbox (15.76219pt too wide) in paragraph at lines 14--15
+Overfull \hbox (15.76219pt too wide) in paragraph at lines 18--20
 []\OT1/cmr/m/n/12 A slang trans-la-tion sys-tem de-vel-oped by Ibrahim and Must
 afa []Abdulstar Ibrahim
  []
@@ -464,17 +479,17 @@ Chapter 3.
 ]
 
 [8]
-Underfull \hbox (badness 4242) in paragraph at lines 62--63
+Underfull \hbox (badness 4242) in paragraph at lines 90--91
 []\OT1/cmr/m/n/12 Identification of po-ten-tial
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
 []\OT1/cmr/m/n/12 Prototype im-ple-men-ta-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
 []\OT1/cmr/m/n/12 Implementation on LLM
  []
 
@@ -482,7 +497,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 80--81
 
 [9]
 
-[10] (main.bbl
+[10]
+\openout2 = `chapter_4.aux'.
+
+ (chapter_4.tex
+Chapter 4.
+)
+
+[11
+
+
+
+
+] (main.bbl
 Underfull \hbox (badness 1931) in paragraph at lines 156--169
 \OT1/cmr/m/n/12 trieved from $\OT1/cmtt/m/n/12 https :// www [] .open [] .edu /
  openlearn / languages / exploring []
@@ -526,7 +553,7 @@ might try typing `S' now just to see what is salvageable.
 
 
 
-[11
+[12
 
 
 
@@ -549,9 +576,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 361--375
  []
 
 ! Misplaced alignment tab character &.
-<argument> Language &
-                      Communication
-l.629 ...Language & Communication}{29}{3}{199-209}
+<argument> John Wiley &
+                        Sons, Ltd
+l.658 ...ddressPublisher{}{John Wiley & Sons, Ltd}
                                                   .
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -562,23 +589,46 @@ might try typing `S' now just to see what is salvageable.
 
 
 
-[12])
+[13]
+! Misplaced alignment tab character &.
+<argument> Language &
+                      Communication
+l.688 ...Language & Communication}{29}{3}{199-209}
+                                                  .
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
 
-[13] (main.aux (title_page.aux) (chapter_1.aux) (chapter_2.aux) (chapter_3.aux)
 )
+
+[14]
+\openout2 = `appendix_A.aux'.
+
+ (appendix_A.tex
+Appendix A.
+)
+
+[15
+
+
+] (main.aux (title_page.aux) (abstract.aux) (chapter_1.aux) (chapter_2.aux)
+(chapter_3.aux) (chapter_4.aux) (appendix_A.aux))
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-16>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 6854 strings out of 473899
- 111043 string characters out of 5726971
- 1946960 words of memory out of 5000000
- 29573 multiletter control sequences out of 15000+600000
+ 6946 strings out of 473899
+ 112545 string characters out of 5726971
+ 1945960 words of memory out of 5000000
+ 29642 multiletter control sequences out of 15000+600000
  566628 words of font info for 68 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 79i,10n,84p,1443b,374s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,10n,84p,846b,350s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\asus\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1
 200.pk><C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
 /cm/cmbx12.pfb><C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/type1/public/
@@ -587,9 +637,9 @@ amsfonts/cm/cmcsc10.pfb><C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/type
 ts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/asus/AppData/Local/Programs/MiK
 TeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/asus/AppData/Local/Prog
 rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (17 pages, 131039 bytes).
+Output written on main.pdf (21 pages, 136184 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
+ 105 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
