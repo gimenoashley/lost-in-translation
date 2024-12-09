@@ -23,11 +23,11 @@ A slang translation system developed by Ibrahim and Mustafa \cite{Abdulstar_Ibra
 They determined that these models can be tweaked into learning the relationship between the slang and its meaning.
 
 \section{LoRA for Fine Tuning}
-Low Rank Adaptation (LoRA) is an efficient Parameter Efficient Fine Tuning (PEFT) method proposed by Hu et al \cite{hu2021loralowrankadaptationlarge}.
+Low Rank Adaptation, or LoRA, is an efficient Parameter Efficient Fine Tuning (PEFT) method proposed by Hu et al \cite{hu2021loralowrankadaptationlarge}.
 It can significantly decrease the required storage for training while producing comparable results and in some cases, even outperforming other adaptation methods.
 In addition, it has minimal chance of catastrophic forgetting as the original weights are not being tampered with, unlike other finetuning methods.
 These factors make it a suitable option for slang translation as a quick yet accurate solution.
-In a study conducted by Zhao et al. \cite{zhao2024loraland310finetuned}, they determined that some LLMs using Low Rank Adaptation (LoRA) for fine tuning can outperform GPT-4, one of the most advanced LLM models currently.
+In a study conducted by Zhao et al. \cite{zhao2024loraland310finetuned}, they determined that some LLMs using LoRA for fine tuning can outperform GPT-4, one of the most advanced LLM models currently.
 A study by Nguyen et al. \cite{nguyen2023finetuningllama2large} used LoRA in fine tuning a pre-trained Llama 2 7B model for text classification of a dataset that contains slang.
 They were able to create a more accurate model compared to models by existing studies at that time. 
 
