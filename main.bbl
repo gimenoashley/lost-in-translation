@@ -30,11 +30,11 @@ Abdulstar~Ibrahim, A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Ambarsari%
+Ambarsaru%
 , Amrullah%
 \BCBL {}\ \BBA {} Nawawi%
 }{%
-Ambarsari%
+Ambarsaru%
 \ \protect \BOthers {.}}{%
 {\protect \APACyear {2020}}%
 }]{%
@@ -42,7 +42,7 @@ Ambarsari_Amrullah_Nawawi_2020}
 \APACinsertmetastar {%
 Ambarsari_Amrullah_Nawawi_2020}%
 \begin{APACrefauthors}%
-Ambarsari, S.%
+Ambarsaru, S.%
 , Amrullah, A.%
 \BCBL {}\ \BBA {} Nawawi, N.%
 \end{APACrefauthors}%
@@ -436,6 +436,31 @@ Liu, S.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Mattiello%
+}{%
+Mattiello%
+}{%
+{\protect \APACyear {2005}}%
+}]{%
+Mattiello2005ThePO}
+\APACinsertmetastar {%
+Mattiello2005ThePO}%
+\begin{APACrefauthors}%
+Mattiello, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2005}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The Pervasiveness o fSlang in Standard and Non-Standard
+  English} {The pervasiveness o fslang in standard and non-standard
+  english}.{\BBCQ}.
+\newblock
+\begin{APACrefURL} \url{https://api.semanticscholar.org/CorpusID:140842571}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Maulidiya%
 , Wijaya%
 , Mauren%
@@ -607,6 +632,40 @@ Prensky, M.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Roth-Gordon%
+}{%
+Roth-Gordon%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+Roth-Gordon2020}
+\APACinsertmetastar {%
+Roth-Gordon2020}%
+\begin{APACrefauthors}%
+Roth-Gordon, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Language and Creativity: Slang} {Language and
+  creativity: Slang}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {The International Encyclopedia of Linguistic
+  Anthropology} {The international encyclopedia of linguistic anthropology}\
+  (\BPG~1-8).
+\newblock
+\APACaddressPublisher{}{John Wiley & Sons, Ltd}.
+\newblock
+\begin{APACrefURL}
+  \url{https://onlinelibrary.wiley.com/doi/abs/10.1002/9781118786093.iela0192}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{https://doi.org/10.1002/9781118786093.iela0192}
+  \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Suslak%
 }{%
 Suslak%
@@ -640,10 +699,10 @@ Suslak, D\BPBI F.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Teng%
+teng%
 \ \BBA {} Joo%
 }{%
-Teng%
+teng%
 \ \BBA {} Joo%
 }{%
 {\protect \APACyear {2023}}%
@@ -652,7 +711,7 @@ Teng_Joo2023}
 \APACinsertmetastar {%
 Teng_Joo2023}%
 \begin{APACrefauthors}%
-Teng, C\BPBI E.%
+teng, C\BPBI E.%
 \BCBT {}\ \BBA {} Joo, T\BPBI M.%
 \end{APACrefauthors}%
 \unskip\
@@ -705,37 +764,6 @@ Vacalares, S\BPBI T.%
   Archive}{9}{1}{400–409}.
 \newblock
 \begin{APACrefDOI} \doi{10.30574/ijsra.2023.9.1.0456} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Vargas%
-\ \BBA {} Marbella%
-}{%
-Vargas%
-\ \BBA {} Marbella%
-}{%
-{\protect \APACyear {2023}}%
-}]{%
-Vargas_Marbella_2023a}
-\APACinsertmetastar {%
-Vargas_Marbella_2023a}%
-\begin{APACrefauthors}%
-Vargas, A.%
-\BCBT {}\ \BBA {} Marbella, F.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2023}{Sep}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Bokabularyong Generation Alpha sa pakikipagtalastasang
-  Filipino} {Bokabularyong generation alpha sa pakikipagtalastasang
-  filipino}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{International Journal of Research Studies in
-  Education}{12}{8}{57–69}.
-\newblock
-\begin{APACrefDOI} \doi{http://dx.doi.org/10.5861/ijrse.2023.62}
-  \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
