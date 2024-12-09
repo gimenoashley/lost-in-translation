@@ -10,20 +10,20 @@
 \contentsline {section}{\numberline {2.1}Communication Gap between Generations}{4}{}%
 \contentsline {section}{\numberline {2.2}Existing Studies}{5}{}%
 \contentsline {section}{\numberline {2.3}LoRA for Fine Tuning}{6}{}%
-\contentsline {section}{\numberline {2.4}Chapter Summary}{6}{}%
-\contentsline {chapter}{\numberline {3}Research Methodology}{7}{}%
-\contentsline {section}{\numberline {3.1}Research Activities}{7}{}%
-\contentsline {subsection}{\numberline {3.1.1}Creation of the dataset}{7}{}%
-\contentsline {subsection}{\numberline {3.1.2}Identification of potential LLM to be used}{7}{}%
-\contentsline {subsection}{\numberline {3.1.3}Lookup on available GPU on demand services}{8}{}%
-\contentsline {subsection}{\numberline {3.1.4}Study on LoRA implementation for LLM}{8}{}%
-\contentsline {subsection}{\numberline {3.1.5}Preprocessing of data}{8}{}%
-\contentsline {subsection}{\numberline {3.1.6}Prototype implementation of LoRA}{9}{}%
-\contentsline {subsection}{\numberline {3.1.7}Implementation of LoRA on selected model}{9}{}%
-\contentsline {subsection}{\numberline {3.1.8}Implementation on LLM Evaluation Metrics}{9}{}%
-\contentsline {subsection}{\numberline {3.1.9}Model Evaluation and Analysis of Results}{9}{}%
-\contentsline {subsection}{\numberline {3.1.10}Documentation}{10}{}%
-\contentsline {section}{\numberline {3.2}Calendar of Activities}{10}{}%
-\contentsline {chapter}{\numberline {4}Preliminary Results/System Prototype}{11}{}%
-\contentsline {chapter}{References}{14}{}%
-\contentsline {chapter}{\numberline {A}Appendix Title}{17}{}%
+\contentsline {section}{\numberline {2.4}Chapter Summary}{7}{}%
+\contentsline {chapter}{\numberline {3}Research Methodology}{8}{}%
+\contentsline {section}{\numberline {3.1}Research Activities}{8}{}%
+\contentsline {subsection}{\numberline {3.1.1}Creation of the dataset}{8}{}%
+\contentsline {subsection}{\numberline {3.1.2}Identification of potential LLM to be used}{8}{}%
+\contentsline {subsection}{\numberline {3.1.3}Lookup on available GPU on demand services}{9}{}%
+\contentsline {subsection}{\numberline {3.1.4}Study on LoRA implementation for LLM}{9}{}%
+\contentsline {subsection}{\numberline {3.1.5}Preprocessing of data}{9}{}%
+\contentsline {subsection}{\numberline {3.1.6}Prototype implementation of LoRA}{10}{}%
+\contentsline {subsection}{\numberline {3.1.7}Implementation of LoRA on selected model}{10}{}%
+\contentsline {subsection}{\numberline {3.1.8}Implementation on LLM Evaluation Metrics}{10}{}%
+\contentsline {subsection}{\numberline {3.1.9}Model Evaluation and Analysis of Results}{10}{}%
+\contentsline {subsection}{\numberline {3.1.10}Documentation}{11}{}%
+\contentsline {section}{\numberline {3.2}Calendar of Activities}{11}{}%
+\contentsline {chapter}{\numberline {4}Preliminary Results/System Prototype}{12}{}%
+\contentsline {chapter}{References}{15}{}%
+\contentsline {chapter}{\numberline {A}Figures and Tables}{18}{}%
