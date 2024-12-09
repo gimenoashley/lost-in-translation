@@ -200,6 +200,34 @@ Ghazali, N\BPBI M.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Gonzaga%
+, Racal%
+\BCBL {}\ \BBA {} Estrada%
+}{%
+Gonzaga%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+gonzagaforda}
+\APACinsertmetastar {%
+gonzagaforda}%
+\begin{APACrefauthors}%
+Gonzaga, L\BPBI M\BPBI T.%
+, Racal, J\BPBI T\BPBI Q.%
+\BCBL {}\ \BBA {} Estrada, K\BPBI O.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {“FORDA CONVO ANG FERSON”: ANALYSIS OF GEN Z SLANG IN
+  THE LENS OF BATSTATEU FACULTY MEMBERS} {“forda convo ang ferson”:
+  Analysis of gen z slang in the lens of batstateu faculty members}.{\BBCQ}
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Heydari%
 , Albadvi%
 \BCBL {}\ \BBA {} Khazeni%
