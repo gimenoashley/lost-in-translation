@@ -5,17 +5,12 @@ The discussion covers the activities from pre-proposal to Final SP Writing.
 
 \section{Research Activities}
 \subsection{Creation of the dataset} 
-A dataset of sentences containing Generation Z slangs and its formal translation or an approximation of will be created.
-This will involve data scraping of social media posts, use of existing datasets, or any other suitable methods of obtaining data.
+A dataset of sentences containing Generation Z slangs and its formal translation or an approximation of will be created. This will involve data scraping of social media posts, use of existing datasets, or any other suitable methods of obtaining data.
 
 For data scraping, we will be using Facebook as the main platform in which data will be collected from.
-This will involve usage of web scraping scripts using Facebook API to search for public posts of people with a birth date between 1997 and 2012.
-The scraped data will then be manually cleaned up and formatted by the researchers.
-This dataset will be used for the training and evaluation of the model.
-To ensure it is a high quality dataset, it will be manually checked for accuracy and grammatically correctness.
-It will also be checked for any potential biases that may exist in the dataset or the data collection process.
+This will involve usage of web scraping scripts using Facebook API to search for public posts of people with a birth date between 1997 and 2012. The scraped data will then be manually cleaned up and formatted by the researchers.
 
-A complete dataset of sentences containing Generation Alpha slangs is expected at the end of this task. 
+A complete dataset of sentences containing Generation Z slangs is expected at the end of this task. 
 
 \subsection{Identification of potential LLM to be used}
 We will be reading upon existing LLM comparison studies to identify potential LLMs to be used for this study.
@@ -40,11 +35,14 @@ We will be primarily using the guide provided by HuggingFace as it is one of the
 In addition, they also provided guides for fine-tuning models for specific purposes and has model specific guides.
 
 \subsection{Preprocessing of data} 
-The dataset used for the fine-tuning of the model will be cleaned up.
-This will require removal of non essential information such as email adresses, URLs, etc.
+The dataset used for the fine-tuning of the model will be preprocessed to ensure optimal performance of the model.
+Data cleaning will be performed to remove errors, inconsistencies, and irrelevant information in the dataset.
+This will require removal of non essential information such as email adresses, URLs, duplicates, etc.
+Removal of punctuation and stop words will be performed as these do not contribute to the meaning of the sentence.
+The dataset will checked manually for grammar and accuracy and any error found will be fixed. 
 This is to ensure that the model can focus on learning the patterns between the slang and its formal translation without being affected by noise.
 
-A clean dataset ready for tokenization is expected at the end of this task.
+The transformer library by HuggingFace provides a Tokenizer class to automatically convert the dataset into input for the model.
 
 \subsection{Prototype implementation of LoRA}
 A prototype implementation of LoRA will be created using a less demanding model.
@@ -54,7 +52,8 @@ As it is a prototype, it will be used to create a foundation for the complete im
 It will ensure that during the final implementation, there will be no issues with the code and the model can be fairly evaluated.
 
 For this task, Google Colab will be used as a platform of choice due to the free cloud computing resource and the use of Jupyter notebook.
-In addition, Python will be used as the language of choice to the abundance of available libraries for training LLMs.
+In addition, Python will be used as the language of choice to the abundance of available libraries for training LLMs. The transformers library provided by HuggingFace will be used.
+This was chosen because of the ease of use with its API, as well as the
 
 \subsection{Implementation of LoRA on selected model}
 A full implementation of LoRA will be done using the previously created prototype as a basis.
