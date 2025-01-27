@@ -57,11 +57,9 @@ In addition, Python will be used as the language of choice due to the abundance 
 This was chosen because of its ease of use with its API, as well as support for popular pretrained models such as LLaMA, BERT, and Mistral.
 It is also made by the same company as the zephyr-7b model itself and has even published a guide on fine-tuning the model.
 
-This will involve 
-
 \subsection{Implementation of LoRA on selected model}
 A full implementation of LoRA will be done using the previously created prototype as a basis.
-We will also be using the ent
+We will also be using the entirety of the dataset
 This step will mostly involve tweaking the parameters used to train the selected model and fixing any hidden bugs in the generated results.
 
 \subsection{Implementation of LLM Evaluation Metrics}
@@ -72,25 +70,26 @@ For this purpose, Recall-Oriented Understudy for Gisting Evaluation (ROUGE) will
 Using the LLM as a judge might also be considered to directly compare the results of the fine-tuned and the base model.
 
 Manual evaluation metrics will also be used to validate the quality of the translation.
-This will involve use of surveys to compare the 
+This will involve the use of surveys to compare the generated texts between the base model and the fine-tuned model.
+This allows for insights that cannot be easily detected by automatic metrics such as sentence quality, coherence, etc.
 
 \subsection{Model Evaluation and Analysis of Results}
 The model obtained from previous steps will be evaluated using the evaluation metrics determined from the previous step.
 To do this, the testing set split of the dataset will be used as the basis of evaluation.
 In addition, descriptive information such as loss function per epoch and perplexity will be determined.
-This information will be used as supplement to evaluation metrics to determine if the fine-tuned model performed better than the base model.
+This information will be used as a supplement to the automatic evaluation metrics to determine if the fine-tuned model performed better than the base model.
 
 \subsection{Documentation}
 All members are tasked to provide accurate and detailed logs of their activities.
 This includes steps on the task they are working on, the status of the work being done, and the time spent on the task.
 It will serve both as documentation and as a progress tracker to determine how far the project is from being done.
-It will be done every week at the member’s leisure.
+This will be done every week at the member’s leisure.
 
 
 \section{Calendar of Activities}
 
 	Table \ref{tab:timetableactivities} shows a Gantt chart of the activities.  Each bullet represents approximately
-	one week worth of activity.
+	one week's worth of activity.
 	
 	%
 	%  the following commands will be used for filling up the bullets in the Gantt chart
@@ -129,7 +128,7 @@ It will be done every week at the member’s leisure.
 			Implementation of LoRA on selected model 
 			& & &\weektwo~~ & &  &  &  \\ \hline
 			
-			Implementation on LLM Evaluation Metrics 
+			Implementation of LLM Evaluation Metrics 
 			& & &\weektwo  & &  &  &  \\ \hline
 			
 			Model Evaluation and Analysis of Results 
