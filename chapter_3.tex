@@ -1,29 +1,29 @@
 %   Filename    : chapter_4.tex 
 \chapter{Research Methodology}
-This chapter lists and discusses the specific steps and activities that will be performed  to accomplish the project. 
+This chapter lists and discusses the specific steps and activities that will be performed to accomplish the project. 
 The discussion covers the activities from pre-proposal to Final SP Writing.
 
 \section{Research Activities}
 \subsection{Creation of the dataset} 
-A dataset of sentences containing Generation Z slangs and its formal translation or an approximation of will be created. This will involve data scraping of social media posts, use of existing datasets, or any other suitable methods of obtaining data.
+A dataset of sentences containing Generation Z slang and its formal translation or an approximation of will be created. This will involve data scraping of social media posts, use of existing datasets, or any other suitable methods of obtaining data.
 
-For data scraping, we will be using Facebook as the main platform in which data will be collected from.
-This will involve usage of web scraping scripts using Facebook API to search for public posts of people with a birth date between 1997 and 2012. The scraped data will then be manually cleaned up and formatted by the researchers.
+For data scraping, we will be using Facebook as the main platform from which data will be collected.
+This will involve the use of web scraping scripts using the Facebook API to search for public posts of people with a birth date between 1997 and 2012. The scraped data will then be manually cleaned up and formatted by the researchers.
 
-A complete dataset of sentences containing Generation Z slangs is expected at the end of this task. 
+A complete dataset of sentences containing Generation Z slang is expected at the end of this task. 
 
 \subsection{Identification of potential LLM to be used}
 We will be reading upon existing LLM comparison studies to identify potential LLMs to be used for this study.
-We will be primarily using studies that used dataset containing slangs as they are the most similar to our required dataset.
+We will be primarily using studies that used datasets containing slang as they are the most similar to our required dataset.
 A good potential model is zephyr-7b-beta due to its popularity, more open license, and number of parameters.
 Having 7B parameters allows the training of models on a 16GB GPU with a 4-bit quantization.
 In addition, zephyr-7b-beta has been proven to be better compared to other LLMs \cite{Zhu_2023} \cite{zhao2024loraland310finetuned}.
 
-A model to use should be determined at the end of this task.
+The model to use should be determined at the end of this task.
 
-\subsection{Lookup on available GPU on demand services} 
+\subsection{Lookup for available GPU on demand services} 
 Available computing power rental services will be looked up for this study.
-As LLM training are a resource-intensive process, it is important to ensure that the necessary computing power is available.
+As LLM training is a resource-intensive process, it is important to ensure that the necessary computing power is available.
 However, this computing power requires expensive equipment that might not see usage after the project is completed.
 Thus, it has been decided that it is better to rent the computing power for the duration of the project.
 A report on available GPU on demand services will be created using market research and price to computing power ratio.
@@ -33,14 +33,14 @@ A thorough study on the implementation of LoRA for fine-tuning will be done.
 This includes learning the necessary steps, logic behind the idea, and other necessary information necessary for implementation.
 For this step, reading upon guide materials regarding fine-tuning and LoRA as well as existing studies will be done.
 We will be primarily using the guide provided by HuggingFace as it is one of the largest repositories for prebuilt LLMs.
-In addition, they also provided guides for fine-tuning models for specific purposes and has model specific guides.
+In addition, they also provide guides for fine-tuning models for specific purposes and have model specific guides.
 
 \subsection{Preprocessing of data} 
 The dataset used for the fine-tuning of the model will be preprocessed to ensure optimal performance of the model.
 Data cleaning will be performed to remove errors, inconsistencies, and irrelevant information in the dataset.
-This will require removal of non essential information such as email adresses, URLs, duplicates, etc.
+This will require removal of non-essential information such as email addresses, URLs, duplicates, etc.
 Removal of punctuation and stop words will be performed as these do not contribute to the meaning of the sentence.
-The dataset will checked manually for grammar and accuracy and any error found will be fixed. 
+The dataset will be checked manually for grammar and accuracy and any errors found will be fixed. 
 This is to ensure that the model can focus on learning the patterns between the slang and its formal translation without being affected by noise.
 
 The transformer library by HuggingFace provides a Tokenizer class to automatically convert the dataset into input for the model.
@@ -48,14 +48,14 @@ The transformer library by HuggingFace provides a Tokenizer class to automatical
 \subsection{Prototype implementation of LoRA}
 A prototype implementation of LoRA will be created using a less demanding model.
 This is to avoid incurring costs from constantly retraining the model due to bugs in the code.
-It will be also developed on the same language as the final implementation to avoid any issues with the code translation.
+The test will also be developed in the same language as the final implementation to avoid any issues with the code translation.
 As it is a prototype, it will be used to create a foundation for the complete implementation of LoRA.
-It will ensure that during the final implementation, there will be no issues with the code and the model can be fairly evaluated.
+This will ensure that during the final implementation, there will be no issues with the code and the model can be fairly evaluated.
 
 For this task, Google Colab will be used as a platform of choice due to the free cloud computing resource and the use of Jupyter notebook.
-In addition, Python will be used as the language of choice to the abundance of available libraries for training LLMs. The transformers library provided by HuggingFace will be used.
-This was chosen because of the ease of use with its API, as well as support for popular pretrained models such as LLaMA, BERT, and Mistral.
-It is also made by the same company as the zephyr-7b model itself and even has published a guide on fine-tuning the model.
+In addition, Python will be used as the language of choice due to the abundance of available libraries for training LLMs. The transformers library provided by HuggingFace will be used.
+This was chosen because of its ease of use with its API, as well as support for popular pretrained models such as LLaMA, BERT, and Mistral.
+It is also made by the same company as the zephyr-7b model itself and has even published a guide on fine-tuning the model.
 
 This will involve 
 
@@ -64,12 +64,15 @@ A full implementation of LoRA will be done using the previously created prototyp
 We will also be using the ent
 This step will mostly involve tweaking the parameters used to train the selected model and fixing any hidden bugs in the generated results.
 
-\subsection{Implementation on LLM Evaluation Metrics}
+\subsection{Implementation of LLM Evaluation Metrics}
 A set of evaluation metrics will be used to determine if the fine-tuned model will perform better than the base model.
 These metrics will be taken from existing studies on LoRA finetuning and slang translation.
-It will serve as the primary measure in which LLMs are compared with from each other.
+This will serve as the primary measure by which LLMs are compared with each other.
 For this purpose, Recall-Oriented Understudy for Gisting Evaluation (ROUGE) will be used to score the generated output compared to ground truth.
-The use of LLM as a judge might also be considered to directly compare the results of the fine-tuned and the base model.
+Using the LLM as a judge might also be considered to directly compare the results of the fine-tuned and the base model.
+
+Manual evaluation metrics will also be used to validate the quality of the translation.
+This will involve use of surveys to compare the 
 
 \subsection{Model Evaluation and Analysis of Results}
 The model obtained from previous steps will be evaluated using the evaluation metrics determined from the previous step.
