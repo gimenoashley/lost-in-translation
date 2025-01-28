@@ -1,11 +1,25 @@
-name: GitHub Actions Demo
-run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
-on: [push]
+
+
+name: "Build PDF"
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
 jobs:
-  Explore-GitHub-Actions:
+  build:
     runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/moderncv/debian-texlive-docker:main
     steps:
-      - name: Check out repository code
-        uses: actions/checkout@v4
-      - name: Github Action for LaTeX
-        uses: xu-cheng/latex-action@3.2.0
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Build PDF
+        run: latexmk ./thesis.tex
+      - name: Upload PDF
+        uses: actions/upload-artifact@v3
+        with:
+          name: thesis.pdf
+          path: ./thesis.pdf
