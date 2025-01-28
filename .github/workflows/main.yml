@@ -1,5 +1,3 @@
-
-
 name: "Build PDF"
 
 on:
@@ -17,9 +15,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
       - name: Build PDF
-        run: latexmk ./main.tex
+        run: latexmk main.tex
       - name: Upload PDF
         uses: actions/upload-artifact@v3
         with:
           name: main.pdf
-          path: ./main.pdf
+          path: main.pdf
