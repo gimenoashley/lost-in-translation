@@ -5,7 +5,8 @@ The discussion covers the activities from pre-proposal to Final SP Writing.
 
 \section{Research Activities}
 \subsection{Creation of the dataset} 
-A dataset of sentences containing Generation Z slang and its formal translation or an approximation of will be created. This will involve data scraping of social media posts, use of existing datasets, or any other suitable methods of obtaining data.
+A dataset of sentences containing Generation Z slang and its formal translation or an approximation of will be created. 
+This will involve data scraping of social media posts, use of existing datasets, or any other suitable methods of obtaining data.
 
 For data scraping, we will be using Facebook as the main platform from which data will be collected.
 This will involve the use of web scraping scripts using the Facebook API obtained from publicly available scripts on GitHub to search for public posts of people with a birth date between 1997 and 2012. 
@@ -52,6 +53,7 @@ This is to ensure that the model can focus on learning the patterns between the 
 
 The transformer library by HuggingFace provides a Tokenizer class to automatically convert the cleaned dataset into input for the model.
 The model we will be using, which is zephyr-7b-beta model, is a fine-tuned Mistral 7B LLM according to their documentation and is supported by the library.
+The train-test-validation ratio that we will be using is 80-10-10 to ensure no overfitting while still allowing the model to adapt to the pattern of slangs.  
 
 \subsection{Prototype implementation of LoRA}
 A prototype implementation of LoRA will be created using a less demanding model.
