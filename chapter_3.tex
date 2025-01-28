@@ -53,7 +53,7 @@ This is to ensure that the model can focus on learning the patterns between the 
 
 The transformer library by HuggingFace provides a Tokenizer class to automatically convert the cleaned dataset into input for the model.
 The model we will be using, which is zephyr-7b-beta model, is a fine-tuned Mistral 7B LLM according to their documentation and is supported by the library.
-The train-test-validation ratio that we will be using is 80-10-10 to ensure no overfitting while still allowing the model to adapt to the pattern of slangs.  
+The train-test-validation ratio that we will be using is 80-10-10 to ensure no overfitting while still allowing the model to adapt to the pattern of slang.  
 
 \subsection{Prototype implementation of LoRA}
 A prototype implementation of LoRA will be created using a less demanding model.
@@ -62,7 +62,7 @@ The test will also be developed in the same language as the final implementation
 As it is a prototype, it will be used to create a foundation for the complete implementation of LoRA.
 This will ensure that during the final implementation, there will be no issues with the code and the model can be fairly evaluated.
 
-For this task, Google Colab will be used as a platform of choice due to the free cloud computing resource and the use of Jupyter notebook.
+For this task, Google Colab will be used as a platform of choice due to the free cloud computing resource, the use of Jupyter notebook, and a computing power-on-demand service. The platform allows us to debug the code for model fine-tuning for free and have the full training by paying for additional resources.
 In addition, Python will be used as the language of choice due to the abundance of available libraries for training LLMs. The transformers library provided by HuggingFace will be used.
 This was chosen because of its ease of use with its API, as well as support for popular pretrained models such as LLaMA, BERT, and Mistral.
 It is also made by the same company as the zephyr-7b model itself and has even published a guide on fine-tuning the model.
