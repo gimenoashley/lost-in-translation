@@ -16,9 +16,11 @@ A complete dataset of sentences containing Generation Z slang is expected at the
 \subsection{Identification of potential LLM to be used}
 We will be reading upon existing LLM comparison studies to identify potential LLMs to be used for this study.
 We will be primarily using studies that used datasets containing slang as they are the most similar to our required dataset.
+
 A good potential model is zephyr-7b-beta due to its popularity, more open license, and number of parameters.
 Having 7B parameters allows the training of models on a 16GB GPU with a 4-bit quantization.
 In addition, zephyr-7b-beta has been proven to be better compared to other LLMs \cite{Zhu_2023} \cite{zhao2024loraland310finetuned}.
+These studies have proven that the model is superior to well known models on generative tasks based on automatic and human evaluation.
 
 The model to use should be determined at the end of this task.
 
@@ -28,7 +30,8 @@ As LLM training is a resource-intensive process, it is important to ensure that 
 However, this computing power requires expensive equipment that might not see usage after the project is completed.
 Thus, it has been decided that it is better to rent the computing power for the duration of the project.
 
-For this project, the computer that will be used for the training must have a minimum of 16GB of vram to load the entire model after quantization and still allow for fine-tuning activities. The computing power is not as important as it only dictates the length of the training but a faster machine is preferrable to expedite the speed of testing and debugging.
+For this project, the computer that will be used for the training must have a minimum of 16GB of vram to load the entire model after quantization and still allow for fine-tuning activities.
+The computing power is not as important as it only dictates the length of the training but a faster machine is preferrable to expedite the speed of testing and debugging.
 
 A report on available GPU on demand services will be created using market research and price to computing power ratio.
 
@@ -47,8 +50,8 @@ Removal of punctuation and stop words will be performed as these do not contribu
 The dataset will be checked manually for grammar and accuracy and any errors found will be fixed. 
 This is to ensure that the model can focus on learning the patterns between the slang and its formal translation without being affected by noise.
 
-The transformer library by HuggingFace provides a Tokenizer class to automatically convert the dataset into input for the model. 
-The model we will be using, which is zephyr-7b-beta model, is a fine-tuned Mistral 7B LLM according to their documentation and is supported by the library. 
+The transformer library by HuggingFace provides a Tokenizer class to automatically convert the dataset into input for the model.
+The model we will be using, which is zephyr-7b-beta model, is a fine-tuned Mistral 7B LLM according to their documentation and is supported by the library.
 
 \subsection{Prototype implementation of LoRA}
 A prototype implementation of LoRA will be created using a less demanding model.
