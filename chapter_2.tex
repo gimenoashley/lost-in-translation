@@ -12,6 +12,8 @@ Supporting this, a study by Teng and Joo \cite{Teng_Joo2023} found that the olde
 
 Studies have shown that using internet slang improves relationships between those who use it. However, using internet slang for inter-generational communication can be a hindrance to proper and effective communication \cite{gonzagaforda}.
 
+\subsection{Generative AI}
+Generative AI encompasses machine learning models that create new content, such as text, images, and audio, based on patterns learned from extensive data \cite{euchner2023generative}. These models, including LLMs like those used in ChatGPT and Bing AI, use neural networks to predict the next word or phrase in a sequence, enabling them to generate human-like text \cite{brynjolfsson2023generative}. The ability of generative AI to understand and produce diverse content, ranging from creative writing code, makes it potentially useful for various applications, such as language translation \cite{fui2023generative}. 
 
 \section{Existing Studies}
 Vergho et al.\cite{vergho2024comparinggpt4opensourcelanguage} used multiple open source LLMs and compared them with the latest ersion of GPT-3.5 and 4.0 models at that time.
@@ -23,6 +25,35 @@ The study by Nocon et al. \cite{Nocon_Kho_Arroyo_2018} explores translating Fili
 
 Ibrahim and Mustafa \cite{Abdulstar_Ibrahim_Shareef_Mustafa_2023} developed a system to translate slang into formal language, addressing challenges posed by slang's informality and variability. Using updated datasets of slang words, formal equivalents, and contextual sentences, they fine-tuned pre-trained models from Hugging Face's Transformer library. While the T5-base model showed promise during training, it performed poorly in testing. In contrast, the “facebook/bart-base” model excelled, demonstrating high accuracy and low loss values. The study highlights the importance of fine-tuning and updating datasets for effective slang translation and emphasizes the potential of transformer models like “facebook/bart-base” in bridging informal and formal language gaps. 
 
+\begin{table}[ht]  
+    \centering
+    \caption{Summary of Existing Studies} \vspace{0.25em}
+    \begin{tabular}{|p{1in}|p{1in}|p{1in} | p{1in}|} \hline
+    \centering Author
+    & Focus 
+    & Gaps 
+    & Problem Solved  \\ \hline
+    
+    Nocon et al.    
+    & Developing machine translators for Filipino colloquialisms using sequence-to-sequence models and statistical machine translation (Moses). & Tensorflow models had issues with unknown tokens and repetitions, and limited ability to generalize to unseen data.
+    & Demonstrated the feasibility of machine translation for Filipino colloquialisms, with Moses as a viable solution.
+    \\ \hline
+    
+    Ibrahim et.al  
+    & Developing an intelligent system to transform English slang words into formal words.
+    & The study noted that more powerful processors could improve the training and testing, and that previous datasets were outdated and needed updating.
+    & Demonstrated an effective model for translating English slang to formal English and highlighted the importance of fine-tuning pre-trained models.
+    \\ \hline
+    
+    Khazeni et al.
+    & Persian slang text conversion to formal and deep learning of Persian short texts on social media
+    & The BERT models used did not align well with the informal data used in the sentiment analysis.
+    & Created a tool to convert Persian slang to formal text and improved sentiment analysis of short texts using deep learning.
+    \\ \hline
+    
+    \end{tabular}
+    \label{tab:timetableactivities}
+    \end{table}
 
 \section{LoRA for Fine Tuning}
 Low Rank Adaptation, or LoRA, is an efficient Parameter Efficient Fine Tuning (PEFT) method proposed by Hu et al \cite{hu2021loralowrankadaptationlarge}.
