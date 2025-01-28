@@ -5,36 +5,31 @@
 \section{Overview}
 \label{sec:overview}
 
-Language is how humans communicate and express themselves \cite{Crystal_Robins_2024}.
-It is dynamic because there are endless structural possibilities, changes in word meanings, and new words created \cite{Libretexts_2021}.
-Slang is a great example of the dynamic nature of language. Slang is an informal language used by people in the same social group \cite{Fernández-Toro_2016}.
-It serves social purposes: to identify a group's members, communicate informally, and oppose established authority \cite{McArthur_1998}. Slang is highly contextual and pervasive, even in non-standard English. \cite{Roth-Gordon2020}
-Its figurative nature and how it twists the definitions of the words used in it make it hard for outsiders to understand \cite{Mattiello2005ThePO}. 
+Language is how humans communicate and express themselves \cite{Crystal_Robins_2024}. It evolves, adapting to the changing needs of users \cite{Jeresano_Carretero_2022}. New words are borrowed or invented \cite{article}, and most linguistic changes are initiated by young adults and adolescents (Thump, 2016 as cited in \cite{Jeresano_Carretero_2022}). This demographic tends to focus on belonging to self-organized groups of peers and friends, forming what can be described as the "we" generation. Through their interactions, language changes differently, making them remarkably distinct from previous generations.
 
-In recent years, the internet has become a significant medium for the evolution and spread of language, giving rise to `internet slang' \cite{Liu_Zhang_Li_2023}.
-Internet slang is a collection of everyday language forms used by diverse groups online \cite{Barseghyan2014ONSA}.
-Ujang et al. (2018, as cited in \cite{Sabri2020}) state that Internet slang is not easily understood by people outside the social group or people who are not fluent in the language where slang is used.
-This phenomenon is particularly prominent among the younger generation \cite{Maulidiya_Wijaya_Mauren_Adha_Pandin_2021}, where they use it to communicate and interact with friends.
+Slang is a great example of the dynamic nature of language. Slang is an informal language used by people in the same social group \cite{Fernández-Toro_2016}. It serves multiple social purposes: identifying group members, communicating informally, and opposing established authority \cite{McArthur_1998}. Slang is highly contextual and pervasive, even in non-standard English. Its figurative nature and how it twists the definitions of the words used make it difficult for outsiders to understand. 
 
-Needs Fix
-Today, Generation Alpha is the youngest generation. Generation Alpha refers to people born between 2010 and 2025.
-They were born into an era of rapid technological advancement, where digital devices and the internet are integral to their daily lives \cite{McCrindle2020}.
-Generation Alpha is also called the first true digital natives \cite{Jukic_Skojo2021}.
-They are expected to be the most ``technologically" skilled and most educated generation as they are the native speakers of the language of the Internet \cite{Prensky_2001b}.
-According to the study \textit{Understanding Generation Alpha}, Generation Alpha is socially driven, which may let them grow up to be creative and unconventional, potentially shaping them to be assets in the future \cite{Jha2020}.
+In recent years, the Internet has become a significant medium for the evolution and spread of language, giving rise to 'Internet slang' \cite{Liu_Zhang_Li_2023}. Internet slang is a collection of everyday language forms used by various online groups \cite{Barseghyan2014ONSA}. Ujang et al. (2018, as cited in \cite{Sabri2020}) state that internet slang is not easily understood by people outside the social group or people who are not fluent in the language where the slang is used. This phenomenon is particularly prominent among the younger generation \cite{Maulidiya_Wijaya_Mauren_Adha_Pandin_2021}, where they use it to communicate and interact with friends.
 
-Since Generation Alpha was born with technology, the usage of Internet slang has been prominent in this generation.
-However, it can create communication barriers between older and younger generations (Venter, 2017 as cited in \cite{Ghazali_Abdullah_2021}).
-The communication barriers caused by the usage of Internet slang also affect people from the younger generation, especially individuals who are less active on social media and have less exposure to them \cite{Vacalares_Salas_Babac_Cagalawan_Calimpong_2023}.
-This gap highlights the need for a tool that can bridge the generational divide, making it easier for individuals to understand the language of Generation Z.
-By fostering a mutual understanding, such tools can promote more effective and harmonious interactions across generations, enhancing relationships and reducing miscommunication.
+Generation Z, individuals born between 1996 and 2009, are regarded as "digital natives" because technology is an integral part of their upbringing \cite{Dua_Jacobson_Ellingrud_Enomoto_Cordina_Coe_Finneman_2024}. Even the language of this generation is greatly affected by technology, where newly coined terms and phrases, called Gen Z slang, are tied to the media culture they've grown up with \cite{Jeresano_Carretero_2022}. However, this evolution of language often creates communication barriers with older generations \cite{Venter, 2017 as cited in \cite{Ghazali_Abdullah_2021}}. Furthermore, studies show that even within Generation Z, people with limited exposure to social media may struggle to understand the prevalent slang \cite{Vacalares_Salas_Babac_Cagalawan_Calimpong_2023}. 
 
-This study proposes the use and fine-tuning of Large Language Models and leveraging their extensive knowledge to develop a slang translation tool that can capture the nuances of Generation Z slang and produce a correct and coherent translation. This study is not only interested in the translation of the slang but with the creation of a framework that can be used as a basis for future LLM assisted translation work.
+These gaps highlight the need for a tool that can bridge the generational divide, making it easier for individuals to understand the language of Generation Z. Multiple studies have tried translating slang into a formal language using machine learning. Khazeni et al. achieved a 81.91\% accuracy in translating Persian slang to formal Persian language using deep learning. Another study by Nocon et al. created a translator to translate Filipino colloquialisms into the Filipino language using Tensorflow’s sequence-to-sequence model and Moses’ phrase-based statistical machine translation. Furthermore, Ibrahim and Sharief developed a slang translator using models from Hugging Face. 
+
+building on these studies, this study proposes to create a translation tool specifically to translate Gen Z slang. The tool will utilize Low Rank Adaptation (LoRA) to a selected Large Language Model (LLM). The results will be evaluated using the Recall-Oriented Understudy for Gisting Evaluation (ROUGE). 
+
+By fostering mutual understanding, this tool aims to promote more effective and harmonious interactions across age groups, ultimately enhancing relationships and reducing miscommunication.
+
+The main contributions of this study are as follows:
+\begin{itemize}
+    \item enhance linguistic understanding between generations through using fine-tuning a LLM to translate Gen Z slang to formal language, leveraging the strengths of advanced NLP techniques
+    \item bridge communication gaps between generations using the proposed model to foster better relationships
+    \item create a scalable framework that can be adapted to translate slang in other languages
+\end{itemize}
 
 \section{Problem Statement}
 \label{sec:problem_statement}
 
-Internet slang fosters informal, relatable communication within the younger generation \cite{Ghazali_Abdullah_2021}, especially Generation Alpha, but it presents challenges in understanding for people outside this demographic. 
+Internet slang fosters informal, relatable communication within the younger generation \cite{Ghazali_Abdullah_2021}, especially Generation Z, but it presents challenges in understanding for people outside this demographic. 
 The gap in comprehension with older generations widens as internet slang evolves, often leading to miscommunication affecting social relationships that contribute to the generational divide \cite{Vacalares_Salas_Babac_Cagalawan_Calimpong_2023}. 
 A more specific translation tool developed using language models can be used to bridge this divide.
 
@@ -64,10 +59,10 @@ This study aims to fine-tune the zephyr-7b Large Language Model (LLM) for use in
 %\subsection{Scope and Limitations of the Research} 
 \section{Scope and Limitations of the Research}
 \label{sec:scope}
-This study will focus on the usage of internet slang by Filipino Generation Alpha, with an emphasis on English language since it is widely use on different digital platforms such as social media.
+This study will focus on the usage of internet slang by Filipino Generation Z, with an emphasis on English language since it is widely use on different digital platforms such as social media.
 
 %\subsection{Significance of the Research}
 \section{Significance of the Research}
 \label{sec:significance}
-The study contributes to understanding the evolving linguistic landscape shaped by internet slang, especially as used by Generation Alpha.
+The study contributes to understanding the evolving linguistic landscape shaped by internet slang, especially as used by Generation Z.
 Insights gained from this study may aid educators, parents, and communication professionals in bridging inter-generational communication gaps and fostering better understanding across age groups.
