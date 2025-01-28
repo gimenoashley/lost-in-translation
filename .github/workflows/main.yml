@@ -1,2 +1,9 @@
-- name: Github Action for LaTeX
-  uses: xu-cheng/latex-action@3.2.0
+name: GitHub Actions Demo
+run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+on: [push]
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Github Action for LaTeX
+        uses: xu-cheng/latex-action@3.2.0
