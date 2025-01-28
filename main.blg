@@ -9,19 +9,39 @@ Reallocating 'name_of_file' (item size: 1) to 13 items.
 A level-1 auxiliary file: abstract.aux
 Reallocating 'name_of_file' (item size: 1) to 14 items.
 A level-1 auxiliary file: chapter_1.aux
-Reallocating 'name_of_file' (item size: 1) to 14 items.
-A level-1 auxiliary file: chapter_2.aux
-Reallocating 'name_of_file' (item size: 1) to 14 items.
-A level-1 auxiliary file: chapter_3.aux
-Reallocating 'name_of_file' (item size: 1) to 14 items.
-A level-1 auxiliary file: chapter_4.aux
+White space in argument---line 15 of file chapter_1.aux
+ : \citation{2017
+ :                as cited in \def \BCA {##}{1}2##3{\BCA {##1}{##2}}\def \BCA {##}{1}2##3{\BCA {##1}{##2}}\def ({(}\def ){)}\let \reserved@d =<\def {0}\advance \interlinepenalty \linenopenalty \linenoprevgraf \prevgraf \global \holdinginserts \thr@@ \@@@par \global \holdinginserts 0\advance \interlinepenalty -\linenopenalty }
+I'm skipping whatever remains of this command
+Already encountered file chapter_1.aux
+---line 7 of file main.aux
+ : \@input{chapter_1.aux
+ :                      }
+I'm skipping whatever remains of this command
+Already encountered file chapter_1.aux
+---line 8 of file main.aux
+ : \@input{chapter_1.aux
+ :                      }
+I'm skipping whatever remains of this command
+Already encountered file chapter_1.aux
+---line 9 of file main.aux
+ : \@input{chapter_1.aux
+ :                      }
+I'm skipping whatever remains of this command
 Illegal, another \bibstyle command---line 10 of file main.aux
  : \bibstyle
  :          {apacite}
 I'm skipping whatever remains of this command
 Reallocating 'name_of_file' (item size: 1) to 13 items.
-Reallocating 'name_of_file' (item size: 1) to 15 items.
-A level-1 auxiliary file: appendix_A.aux
+White space in argument---line 25 of file main.aux
+ : \citation{2017
+ :                as cited in \def \BCA {##}{1}2##3{\BCA {##1}{##2}}\def \BCA {##}{1}2##3{\BCA {##1}{##2}}\def ({(}\def ){)}\let \reserved@d =<\def {0}\advance \interlinepenalty \linenopenalty \linenoprevgraf \prevgraf \global \holdinginserts \thr@@ \@@@par \global \holdinginserts 0\advance \interlinepenalty -\linenopenalty }
+I'm skipping whatever remains of this command
+Already encountered file chapter_1.aux
+---line 47 of file main.aux
+ : \@input{chapter_1.aux
+ :                      }
+I'm skipping whatever remains of this command
 Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
 Reallocating 'global_strs' (item size: 1) to 4000000 items.
@@ -32,47 +52,49 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: myreferences.bib
+Warning--I didn't find a database entry for "article"
+Warning--I didn't find a database entry for "Dua_Jacobson_Ellingrud_Enomoto_Cordina_Coe_Finneman_2024"
+Warning--I didn't find a database entry for "Venter"
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-Warning--No journal in gonzagaforda
-You've used 28 entries,
+You've used 10 entries,
             6951 wiz_defined-function locations,
-            1471 strings with 17398 characters,
-and the built_in function-call counts, 55549 in all, are:
-= -- 6851
-> -- 473
-< -- 2608
-+ -- 2731
-- -- 58
-* -- 3506
-:= -- 9982
-add.period$ -- 119
-call.type$ -- 28
-change.case$ -- 498
+            1354 strings with 13254 characters,
+and the built_in function-call counts, 19716 in all, are:
+= -- 2404
+> -- 168
+< -- 932
++ -- 1021
+- -- 20
+* -- 1269
+:= -- 3627
+add.period$ -- 42
+call.type$ -- 10
+change.case$ -- 186
 chr.to.int$ -- 0
-cite$ -- 57
-duplicate$ -- 1548
-empty$ -- 2222
-format.name$ -- 804
-if$ -- 10576
+cite$ -- 20
+duplicate$ -- 540
+empty$ -- 790
+format.name$ -- 287
+if$ -- 3708
 int.to.chr$ -- 0
-int.to.str$ -- 84
+int.to.str$ -- 30
 missing$ -- 0
-newline$ -- 750
-num.names$ -- 226
-pop$ -- 1324
+newline$ -- 272
+num.names$ -- 80
+pop$ -- 468
 preamble$ -- 1
-purify$ -- 143
+purify$ -- 56
 quote$ -- 0
-skip$ -- 3254
+skip$ -- 1089
 stack$ -- 0
-substring$ -- 3020
-swap$ -- 838
-text.length$ -- 104
+substring$ -- 1113
+swap$ -- 295
+text.length$ -- 36
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 2496
-warning$ -- 1
-while$ -- 315
+type$ -- 800
+warning$ -- 0
+while$ -- 110
 width$ -- 0
-write$ -- 931
-(There was 1 error message)
+write$ -- 341
+(There were 7 error messages)
