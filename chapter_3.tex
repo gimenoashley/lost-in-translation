@@ -43,7 +43,8 @@ Removal of punctuation and stop words will be performed as these do not contribu
 The dataset will be checked manually for grammar and accuracy and any errors found will be fixed. 
 This is to ensure that the model can focus on learning the patterns between the slang and its formal translation without being affected by noise.
 
-The transformer library by HuggingFace provides a Tokenizer class to automatically convert the dataset into input for the model.
+The transformer library by HuggingFace provides a Tokenizer class to automatically convert the dataset into input for the model. 
+The model we will be using, which is zephyr-7b-beta model, is a fine-tuned Mistral 7B LLM according to their documentation and is supported by the library. 
 
 \subsection{Prototype implementation of LoRA}
 A prototype implementation of LoRA will be created using a less demanding model.
