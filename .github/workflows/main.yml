@@ -14,8 +14,14 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-      - name: Build PDF
-        run: latexmk main.tex
+      - name: Compile LateX
+        uses: vinay0410/tectonic-action@v1.1.2
+          with:
+            # Path of Tex File
+            tex_path: main.tex 
+            # String stating whether to push output PDF, PDF will only be pushed in case of "yes"
+            push: no# optional, default is no
+                  
       - name: Upload PDF
         uses: actions/upload-artifact@v3
         with:
