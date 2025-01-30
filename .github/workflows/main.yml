@@ -1,4 +1,4 @@
-name: "Build PDF"
+name: LaTeX Build
 
 on:
   push:
@@ -9,21 +9,30 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container:
-      image: ghcr.io/moderncv/debian-texlive-docker:main
+
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-      - name: Compile LateX
-        uses: vinay0410/tectonic-action@v1.1.2
-        with:
-            # Path of Tex File
-          tex_path: main.tex 
-            # String stating whether to push output PDF, PDF will only be pushed in case of "yes"
-          push: no# optional, default is no
-                  
-      - name: Upload PDF
-        uses: actions/upload-artifact@v3
-        with:
-          name: main.pdf
-          path: main.pdf
+    - uses: actions/checkout@v4
+
+    - name: Compile LaTeX document
+      uses: xu-cheng/latex-action@v3
+      with:
+        root_file: main.tex
+
+    - name: Check for LaTeX errors and warnings
+      run: |
+        if grep -q "^!" main.log; then
+          echo "LaTeX errors found:"
+          grep "^!" main.log
+          exit 1
+        elif grep -q "Warning:" main.log; then
+          echo "LaTeX warnings found:"
+          grep "Warning:" main.log
+          echo "Build completed with warnings."
+        else
+          echo "LaTeX build completed successfully without errors or warnings."
+        fi
+    - name: Upload PDF
+      uses: actions/upload-artifact@v4
+      with:
+        name: main.pdf
+        path: main.pdf
