@@ -11,11 +11,11 @@ Slang is a great example of the dynamic nature of language. Slang is an informal
 
 In recent years, the Internet has become a significant medium for the evolution and spread of language, giving rise to 'Internet slang' \cite{Liu_Zhang_Li_2023}. Internet slang is a collection of everyday language forms used by various online groups \cite{Barseghyan2014ONSA}. Ujang et al. (2018, as cited in \cite{Sabri2020}) state that internet slang is not easily understood by people outside the social group or people who are not fluent in the language where the slang is used. This phenomenon is particularly prominent among the younger generation \cite{Maulidiya_Wijaya_Mauren_Adha_Pandin_2021}, where they use it to communicate and interact with friends.
 
-Generation Z, individuals born between 1996 and 2009, are regarded as "digital natives" because technology is an integral part of their upbringing \cite{Dua_Jacobson_Ellingrud_Enomoto_Cordina_Coe_Finneman_2024}. Even the language of this generation is greatly affected by technology, where newly coined terms and phrases, called Gen Z slang, are tied to the media culture they've grown up with \cite{Jeresano_Carretero_2022}. However, this evolution of language often creates communication barriers with older generations \cite{Venter, 2017 as cited in \cite{Ghazali_Abdullah_2021}}. Furthermore, studies show that even within Generation Z, people with limited exposure to social media may struggle to understand the prevalent slang \cite{Vacalares_Salas_Babac_Cagalawan_Calimpong_2023}. 
+Generation Z, individuals born between 1996 and 2009, are regarded as "digital natives" because technology is an integral part of their upbringing \cite{Dua_Jacobson_Ellingrud_Enomoto_Cordina_Coe_Finneman_2024}. Even the language of this generation is greatly affected by technology, where newly coined terms and phrases, called Gen Z slang, are tied to the media culture they've grown up with \cite{Jeresano_Carretero_2022}. However, this evolution of language often creates communication barriers with older generations (Venter, 2017 as cited in \cite{Ghazali_Abdullah_2021}). Furthermore, studies show that even within Generation Z, people with limited exposure to social media may struggle to understand the prevalent slang \cite{Vacalares_Salas_Babac_Cagalawan_Calimpong_2023}. 
 
 These gaps highlight the need for a tool that can bridge the generational divide, making it easier for individuals to understand the language of Generation Z. Multiple studies have tried translating slang into a formal language using machine learning. Khazeni et al. achieved a 81.91\% accuracy in translating Persian slang to formal Persian language using deep learning. Another study by Nocon et al. created a translator to translate Filipino colloquialisms into the Filipino language using Tensorflow’s sequence-to-sequence model and Moses’ phrase-based statistical machine translation. Furthermore, Ibrahim and Sharief developed a slang translator using models from Hugging Face. 
 
-building on these studies, this study proposes to create a translation tool specifically to translate Gen Z slang. The tool will utilize Low Rank Adaptation (LoRA) to a selected Large Language Model (LLM). The results will be evaluated using the Recall-Oriented Understudy for Gisting Evaluation (ROUGE). 
+Building on these studies, this study proposes to create a translation tool specifically to translate Gen Z slang. The tool will utilize Low Rank Adaptation (LoRA) to a selected Large Language Model (LLM). The results will be evaluated using the Recall-Oriented Understudy for Gisting Evaluation (ROUGE). 
 
 By fostering mutual understanding, this tool aims to promote more effective and harmonious interactions across age groups, ultimately enhancing relationships and reducing miscommunication.
 
@@ -35,23 +35,23 @@ A more specific translation tool developed using language models can be used to 
 
 By leveraging the ability of LLM to generate a more nuanced and properly constructed answer, a better tool can be made to translate the slangs into proper sentences.
 It has already been proven by the likes of GPT being modified and tailored for use in several automated chatbots to provide customer service.
-However, no such tool exists for slang translation of Generation Alpha, which arguably has the most diverse slangs compared to other generations.
-The creation of this tool will allow translating of such texts into formal sentences and help with bridging the generational divide between them and older people, especially teachers. 
+%However, no such tool exists for slang translation of Generation Z, which arguably has the most diverse slangs compared to other generations.
+%The creation of this tool will allow translating of such texts into formal sentences and help with bridging the generational divide between them and older people, especially teachers. 
 
-%\subsection{Research Objectives} %for improvement
+%\subsection{Research Objectives} 
 %\subsubsection{General Objective}
 \section{Research Objectives}
 \label{sec:research_objectives}
 
 \subsection{General Objectives}
 \label{sec:general_objectives}
-This study aims to fine-tune the zephyr-7b Large Language Model (LLM) for use in the translation of Generation Z internet slang used by Filipinos in social media.
+This study aims to fine-tune the zephyr-7b LLM for use in the translation of Generation Z internet slang used by Filipinos in social media.
 %\subsubsection{Specific Objectives}
 \subsection{Specific Objectives}
 \label{sec:specific_objectives}
 \begin{itemize}
 	\item To create a dataset of sentences containing Generation Z slang used in differing contexts and its formal translation
-	\item To create a Low Rank Adaptation (LoRA) implementation for fine-tuning an existing model
+	\item To create a LoRA implementation for fine-tuning an existing model
 	\item To fine-tune an existing LLM to translate sentences containing Generation Z slang into formal sentences
 	\item To evaluate the performance of the trained model and compare it to the based model using several performance metrics
 \end{itemize}
