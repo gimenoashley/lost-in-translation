@@ -165,7 +165,7 @@ Dua, A.%
 \newblock
 \APACrefbtitle {What is Gen Z?} {What is gen z?}
 \newblock
-\APACaddressPublisher{}{McKinsey and Company}.
+\APACaddressPublisher{}{McKinsey & Company}.
 \newblock
 \begin{APACrefURL}
   \url{https://www.mckinsey.com/featured-insights/mckinsey-explainers/what-is-gen-z}
@@ -348,6 +348,35 @@ Hu, E\BPBI J.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Ibrahim%
+\ \BBA {} Sharief%
+}{%
+Ibrahim%
+\ \BBA {} Sharief%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+Ibrahim_Sharief}
+\APACinsertmetastar {%
+Ibrahim_Sharief}%
+\begin{APACrefauthors}%
+Ibrahim, A.%
+\BCBT {}\ \BBA {} Sharief, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{10}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Intelligent System to Transformer Slang Words into
+  Formal Words} {Intelligent system to transformer slang words into formal
+  words}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{NTU Journal of Engineering and Technology}{2}{}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.56286/ntujet.v2i2.689} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Jeresano%
 \ \BBA {} Carretero%
 }{%
@@ -370,7 +399,8 @@ Jeresano, E.%
 {\BBOQ}\APACrefatitle {Digital Culture and Social Media Slang of Gen Z}
   {Digital culture and social media slang of gen z}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{United International Journal for Research and Technology}{3}{4}{11–25}.
+\APACjournalVolNumPages{United International Journal for Research &
+  Technology}{3}{4}{11–25}.
 \newblock
 \begin{APACrefDOI} \doi{http://dx.doi.org/10.1314/RG.2.2.36361.93285}
   \end{APACrefDOI}
@@ -602,7 +632,7 @@ Suslak, D\BPBI F.%
 {\BBOQ}\APACrefatitle {The sociolinguistic problem of generations} {The
   sociolinguistic problem of generations}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{Language and Communication}{29}{3}{199-209}.
+\APACjournalVolNumPages{Language & Communication}{29}{3}{199-209}.
 \newblock
 \begin{APACrefURL}
   \url{https://www.sciencedirect.com/science/article/pii/S0271530909000196}
