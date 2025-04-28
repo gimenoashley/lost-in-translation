@@ -1,5 +1,19 @@
 %   Filename    : chapter_4.tex 
 \chapter{Preliminary Results/System Prototype}
+
+\section{Model Evaluation}
+\subsection{Model Training}
+The model was trained for 7 epochs before the early stopping callback was triggered because the evaluation metrics has not improved by at least 0.01 for 3 consecutive epochs. This prevented the overfitting seen in the following figure. 
+% {Insert Figure here}
+
+Here, we can see that the while the training loss is decreasing, the validation loss is increasing and other metrics are not improving. This indicates that the model is overfitting to the training data and may not generalize well to new data. The model training was stopped in just 7 epochs and the best model amongst the epochs, the one with the lowest validation loss and highest metrics, was chosen as the final model.
+
+\subsection{Text Generation}
+A total of 197 sentences were translated using both the base zephyr-7b-beta model and the finetuned model. These served as the dataset used to evaluate the performance of the model and comparing it with the other base model.
+\subsection{Automatic Evaluation Metrics}
+The dataset was automatically evaluated using BLEU and ROUGE metrics, specifically the ROUGE-L metric as the dataset do not contain newlines that ROUGE-Lsum uses to separate the input with. These scores were then averaged to determine the score of the models. The base model obtained a BLEU score of 0.8112 and ROUGE-L Score of 0.8390 and the finetuned model obtained a BLEU score of 0.8125 and ROUGE-L Score of 0.8412.
+
+
 A prototype LoRA implementation was created on Google Colab. 
 This uses zephyr-7b-beta model as the base model for finetuning and a part of the ultrachat dataset as the training dataset.
 The zephyr-7b-beta model was chosen as it is one of the best performing model after LoRA finetuning \cite{zhao2024loraland310finetuned}.
