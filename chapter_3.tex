@@ -6,71 +6,32 @@ The discussion covers the activities from pre-proposal to Final SP Writing.
 \section{Research Activities}
 \subsection{Data Gathering} 
 A dataset of 1897 sentences containing Generation Z slang and its formal translation was used in this study. 
-This dataset was created using several source: data obtained from social media posts and manually translated by the researchers, existing datasets from HuggingFace and Kaggle that was manually verified by the researchers, and machine generated and translated sentences using GPT-4o from OpenAI.
+This dataset was created using several source: data obtained from social media posts and manually translated by the researchers, existing datasets from HuggingFace and Kaggle, and machine generated and translated sentences using GPT-4o from OpenAI.
 
-The data obtained from social media posts were from verified users of X whose ages are within the Generation Z, ensuring that the dataset is reflective of the target demographic. The data was then manually cleaned up to remove unnecessary characters such as emojis and fixed issues such as typos. A similar approach was done with existing and machine generated datasets to ensure consistency within the training dataset.
+The data obtained from social media posts were from verified users of X whose ages are within the Generation Z, so that the dataset is accurate. The data was manually translated by the researchers to ensure that the translation is accurate and reflective of the target demographic. Data obtained from existing datasets and GPT-4o was checked manually to check if whether the sentence is one used by Generation Z. These processes ensured that the dataset is of high quality and representative of what and how Generation Z slang is used.
 
-\subsection{Preprocessing of data} 
+\subsection{Data Preprocessing} 
 The dataset used for the fine-tuning of the model was preprocessed to ensure optimal performance of the model.
-Unnecessary information such as email addresses and URLs was removed. The dataset is then split into train, evaluation, and test datasets in a  The cleaned up dataset was then tokenized through the Transformers library provided by HuggingFace as the library already has tokenizers available for their pretrained models.
+Unnecessary information such as email addresses and URLs was removed. The data was then manually cleaned up to remove unnecessary characters such as emojis and fixed issues such as typos. A similar approach was done with existing and machine generated datasets to ensure consistency within the training dataset.
+
+The dataset is then split into train and test datasets in a 90/10 ratio to maximize the data learned by the model without compromising on the model's ability to generalize to new data. The train dataset is then split again into a 90/10 ratio to ensure no overfitting while still allowing the model to adapt to the pattern of slang. The cleaned up dataset was then tokenized through the Transformers library provided by HuggingFace as the library already has tokenizers available for their pretrained models.
 This ensures that the data is formatted properly as required by the model to be used.
 
-Data cleaning will be performed to remove errors, inconsistencies, and irrelevant information in the dataset.
-This will require removal of non-essential information such as email addresses, URLs, duplicates, etc.
-Removal of punctuation and stop words will be performed as these do not contribute to the meaning of the sentence.
-The dataset will be checked manually for grammar and accuracy and any errors found will be fixed. 
-This is to ensure that the model can focus on learning the patterns between the slang and its formal translation without being affected by noise.
+\subsection{Model Fine-Tuning}
+The model used in this study was zephyr-7b-beta because it is open-source and was proven to perform better than other models of the same size. In addition, it can be trained in a GPU with 16GB of VRAM, necessary as we are using the free tier of Google Colab as the platform of choice for fine-tuning the model.
 
-The transformer library by HuggingFace provides a Tokenizer class to automatically convert the cleaned dataset into input for the model.
-The model we will be using, which is zephyr-7b-beta model, is a fine-tuned Mistral 7B LLM according to their documentation and is supported by the library.
-The train-test-validation ratio that we will be using is 80-10-10 to ensure no overfitting while still allowing the model to adapt to the pattern of slang.  
+This study used the example codes provided by HuggingFace in the documentation of their various libraries and sample notebook provided in the zephyr-7b-beta repository. 
 
-\subsection{Identification of potential LLM to be used}
-This study opted for the use of a pretrained model and use a fine-tuning approach to modify its behaviour. For this, LoRA was chosen due to the reduced number of parameters modified during training and reducing the overhead of training. The zephyr-7b-beta model by HuggingFace was chosen as the base model to be used as it has been used in several studies and is proven to be better than other LLMs of the same specifications \cite{Zhu_2023} \cite{zhao2024loraland310finetuned}. These studies have compared the model to other models and found that it is superior on generative tasks based on automatic and human evaluation, making it suitable for this study.
+The model was loaded using the Transformers library and was quantized into 4 bits through BitsandBytes library to fit the entire model in the allocated resources while having enough headroom for training. In addition, the Unsloth library was used to speed up the training time and reduce the resources used even more \cite{unsloth}. A LoRA adapter was then attached to the model to further reduce the parameters to be trained.
 
-\subsection{Prototype model}
-A prototype finetuned model was created on Google Colab using existing datasets as the training data.  
+To evaluate the model training process and ensure that the model is not overfitting, Bilingual Evaluation Understudy (BLEU) and Recall-Oriented Understudy for Gisting Evaluation (ROUGE) are used. These two metrics was calculated at every epoch of the training process and is used for an early stopping callback to immediately stop the model training if the model seems to be overfitting.
 
-A prototype implementation of LoRA will be created using a less demanding model.
-This is to avoid incurring costs from constantly retraining the model due to bugs in the code.
-The test will also be developed in the same language as the final implementation to avoid any issues with the code translation.
-As it is a prototype, it will be used to create a foundation for the complete implementation of LoRA.
-This will ensure that during the final implementation, there will be no issues with the code and the model can be fairly evaluated.
+The model was then trained using SFTTrainer library to simplify the training process. The model was trained with the following parameters: batch size of 8, learning rate of 1e-5, and maximum number of epochs of 50. These parameters were chosen based on the GPU provided in Colab and the default parameters of SFTTrainer.
 
-For this task, Google Colab will be used as a platform of choice due to the free cloud computing resource, the use of Jupyter notebook, and a computing power-on-demand service. The platform allows us to debug the code for model fine-tuning for free and have the full training by paying for additional resources.
-In addition, Python will be used as the language of choice due to the abundance of available libraries for training LLMs. The transformers library provided by HuggingFace will be used.
-This was chosen because of its ease of use with its API, as well as support for popular pretrained models such as LLaMA, BERT, and Mistral.
-It is also made by the same company as the zephyr-7b model itself and has even published a guide on fine-tuning the model.
+\subsection{Model Evaluation}
+The model was evaluated using both automatic and manual evaluation metrics. The model was then prompted to generate a formal sentence for each sentence in the test dataset. The generated sentences were then compared to the formal translation of the sentence using BLEU and ROUGE metrics. The base zephyr-7b-beta model was also prompted to generate sentences for the BLEU and ROUGE metric and the pairwise comparison for human evaluation. Identical answers between the finetuned and the base model were removed to in the test set to ensure that the model is evaluated properly. A total of 144 sentences were used to evaluate the model.
 
-\subsection{Implementation of LoRA on selected model}
-A full implementation of LoRA will be done using the previously created prototype as a basis.
-We will also be using the entirety of the dataset to train the selected model.
-This step will mostly involve tweaking the parameters used to train the selected model and fixing any hidden bugs in the generated results.
-
-\subsection{Implementation of LLM Evaluation Metrics}
-A set of automatic evaluation metrics will be used to determine if the fine-tuned model will perform better than the base model.
-These metrics will be taken from existing studies on LoRA finetuning and slang translation.
-This will serve as the primary measure by which LLMs are compared with each other.
-For this purpose, Recall-Oriented Understudy for Gisting Evaluation (ROUGE) will be used to score the generated output compared to ground truth.
-Using the LLM as a judge with might also be considered to directly compare the results of the fine-tuned and the base model.
-We will be using the Prometheus-eval application from GitHub to assess the model's response using both Prometheus and GPT 4 as judges.
-This allows it to mimic human evaluation at a relatively low expense while having reproducible results.
-
-Manual evaluation metrics will also be used to validate the quality of the translation.
-This will involve the use of surveys to compare the generated texts between the base model and the fine-tuned model.
-This allows for insights that cannot be easily detected by automatic metrics such as sentence quality, coherence, etc.
-
-\subsection{Model Evaluation and Analysis of Results}
-The model obtained from previous steps will be evaluated using the evaluation metrics determined from the previous step.
-To do this, the testing set split of the dataset will be used as the basis of evaluation.
-In addition, descriptive information such as loss function per epoch and perplexity, or the measurement of how well the model predicts text, will be determined.
-This information will be used as a supplement to the selected evaluation metrics to determine if the fine-tuned model performed better than the base model.
-
-\subsection{Documentation}
-All members are tasked to provide accurate and detailed logs of their activities.
-This includes steps on the task they are working on, the status of the work being done, and the time spent on the task.
-It will serve both as documentation and as a progress tracker to determine how far the project is from being done.
-This will be done every week at the member’s leisure.
+A survey was conducted to compare the finetuned model to the base model to determine if the finetuning was effective. A total of _ participants were involved in the survey, and the survey was conducted online using Google Forms. The survey asked the participants to pick which of the following sentences is the more accurate translation of the given sentence. The order in which sentences from the two models were shown was randomly selected to avoid bias.
 
 
 \section{Calendar of Activities}
