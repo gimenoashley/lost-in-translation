@@ -82,7 +82,7 @@ binti Sabri, N\BPBI A.%
   Social Media} {The usage of english internet slang among malaysians in social
   media}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{Selangor Humaniora Review}{4}{1}{16-17}.
+\APACjournalVolNumPages{Selangor Humaniora Review}{4}{1}{16--17}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -141,6 +141,31 @@ Crystal, D.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Daniel~Han%
+\ \BBA {} team%
+}{%
+Daniel~Han%
+\ \BBA {} team%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+unsloth}
+\APACinsertmetastar {%
+unsloth}%
+\begin{APACrefauthors}%
+Daniel~Han, M\BPBI H.%
+\BCBT {}\ \BBA {} team, U.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+\APACrefbtitle {Unsloth.} {Unsloth.}
+\newblock
+\begin{APACrefURL} \url{http://github.com/unslothai/unsloth} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Dua%
 \ \protect \BOthers {.}}{%
 Dua%
@@ -165,7 +190,7 @@ Dua, A.%
 \newblock
 \APACrefbtitle {What is Gen Z?} {What is gen z?}
 \newblock
-\APACaddressPublisher{}{McKinsey & Company}.
+\APACaddressPublisher{}{McKinsey \& Company}.
 \newblock
 \begin{APACrefURL}
   \url{https://www.mckinsey.com/featured-insights/mckinsey-explainers/what-is-gen-z}
@@ -280,6 +305,32 @@ Ghazali, N\BPBI M.%
 \newblock
 \begin{APACrefURL}
   \url{https://www.iium.edu.my/media/77652/Slang%20Language%20Use%20in%20Social%20Media%20Among%20Malaysian%20Youths_A%20Sociolinguistic%20Perspective.pdf}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Gonzaga%
+}{%
+Gonzaga%
+}{%
+{\protect \APACyear {2025}}%
+}]{%
+gonzagaforda}
+\APACinsertmetastar {%
+gonzagaforda}%
+\begin{APACrefauthors}%
+Gonzaga, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2025}{Feb}{}.
+\newblock
+\APACrefbtitle {“Forda Convo ang Ferson”: Analysis of Gen Z Slang in the
+  Lens of Batstateu Faculty Members.} {“forda convo ang ferson”: Analysis
+  of gen z slang in the lens of batstateu faculty members.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.academia.edu/102575643/_FORDA_CONVO_ANG_FERSON_ANALYSIS_OF_GEN_Z_SLANG_IN_THE_LENS_OF_BATSTATEU_FACULTY_MEMBERS}
   \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
@@ -399,11 +450,35 @@ Jeresano, E.%
 {\BBOQ}\APACrefatitle {Digital Culture and Social Media Slang of Gen Z}
   {Digital culture and social media slang of gen z}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{United International Journal for Research &
+\APACjournalVolNumPages{United International Journal for Research \&
   Technology}{3}{4}{11–25}.
 \newblock
 \begin{APACrefDOI} \doi{http://dx.doi.org/10.1314/RG.2.2.36361.93285}
   \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Lin%
+}{%
+Lin%
+}{%
+{\protect \APACyear {2004}}%
+}]{%
+lin_2004}
+\APACinsertmetastar {%
+lin_2004}%
+\begin{APACrefauthors}%
+Lin, C\BHBI Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2004}{Jul}{}.
+\newblock
+{\BBOQ}\APACrefatitle {ROUGE: A Package for Automatic Evaluation of Summaries}
+  {Rouge: A package for automatic evaluation of summaries}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Meeting of the Association for Computational
+  Linguistics}{}{}{74–81}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -613,6 +688,43 @@ Nocon, N.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Papineni%
+, Roukos%
+, Ward%
+\BCBL {}\ \BBA {} Zhu%
+}{%
+Papineni%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2001}}%
+}]{%
+papineni_roukos_ward_zhu_2001}
+\APACinsertmetastar {%
+papineni_roukos_ward_zhu_2001}%
+\begin{APACrefauthors}%
+Papineni, K.%
+, Roukos, S.%
+, Ward, T.%
+\BCBL {}\ \BBA {} Zhu, W\BHBI J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2001}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {BLEU: a Method for Automatic Evaluation of Machine
+  Translation} {Bleu: a method for automatic evaluation of machine
+  translation}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Proceedings of the 40th Annual Meeting on Association
+  for Computational Linguistics - ACL ’02}{}{}{}.
+\newblock
+\begin{APACrefURL} \url{https://dl.acm.org/citation.cfm?id=1073135}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{https://doi.org/10.3115/1073083.1073135}
+  \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Suslak%
 }{%
 Suslak%
@@ -632,7 +744,7 @@ Suslak, D\BPBI F.%
 {\BBOQ}\APACrefatitle {The sociolinguistic problem of generations} {The
   sociolinguistic problem of generations}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{Language & Communication}{29}{3}{199-209}.
+\APACjournalVolNumPages{Language \& Communication}{29}{3}{199--209}.
 \newblock
 \begin{APACrefURL}
   \url{https://www.sciencedirect.com/science/article/pii/S0271530909000196}
@@ -711,6 +823,36 @@ Vacalares, S\BPBI T.%
   Archive}{9}{1}{400–409}.
 \newblock
 \begin{APACrefDOI} \doi{10.30574/ijsra.2023.9.1.0456} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Vergho%
+, Godbout%
+, Rabbany%
+\BCBL {}\ \BBA {} Pelrine%
+}{%
+Vergho%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2024}}%
+}]{%
+Vergho}
+\APACinsertmetastar {%
+Vergho}%
+\begin{APACrefauthors}%
+Vergho, T.%
+, Godbout, J\BHBI F.%
+, Rabbany, R.%
+\BCBL {}\ \BBA {} Pelrine, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+\APACrefbtitle {Comparing GPT-4 and Open-Source Language Models in
+  Misinformation Mitigation.} {Comparing gpt-4 and open-source language models
+  in misinformation mitigation.}
+\newblock
+\begin{APACrefURL} \url{https://arxiv.org/abs/2401.06920} \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

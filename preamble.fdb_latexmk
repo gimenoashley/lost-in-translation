@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1745903239.07763 "c:/Users/asus/OneDrive/Documents/GitHub/lost-in-translation/preamble.tex" "preamble.pdf" "preamble" 1745903239.88319 2
+["pdflatex"] 1745904565.8747 "c:/Users/asus/OneDrive/Documents/GitHub/lost-in-translation/preamble.tex" "preamble.pdf" "preamble" 1745904566.60973 2
   "C:/Users/asus/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1730351569 24264862 c7405587c11dd2eed9231ddaeff9c470 ""
   "C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr12.tfm" 1136765053 1288 655e228510b4c2a1abe905c368440826 ""
   "C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/generic/ltxcmds/ltxcmds.sty" 1702206890 17865 1a9bd36b4f98178fa551aca822290953 ""
@@ -46,7 +46,7 @@
   "C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
   "C:/Users/asus/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "c:/Users/asus/OneDrive/Documents/GitHub/lost-in-translation/preamble.tex" 1745887935 2844 3fdb33dd39f726ba323890f88c5f04df ""
-  "preamble.aux" 1745903239 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "preamble.aux" 1745904565 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
   "preamble.tex" 1745887935 2844 3fdb33dd39f726ba323890f88c5f04df ""
   (generated)
   "preamble.aux"
