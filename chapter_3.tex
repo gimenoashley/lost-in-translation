@@ -6,7 +6,7 @@ The discussion covers the activities from pre-proposal to Final SP Writing.
 \section{Research Activities}
 \subsection{Data Gathering} 
 A dataset of sentences containing Generation Z slang and its formal translation was used in this study. 
-This dataset was created using several source: data obtained from social media posts and manually translated by the researchers, existing datasets from HuggingFace and Kaggle, and machine generated and translated sentences using GPT-4o from OpenAI.
+This dataset was created using several source: data obtained from social media posts and manually translated by the researchers, existing datasets from HuggingFace, and machine generated and translated sentences using GPT-4o from OpenAI.
 
 The data obtained from social media posts were from verified users of X whose ages are within the Generation Z, so that the dataset is accurate. The data was manually translated by the researchers to ensure that the translation is accurate and reflective of the target demographic. Data obtained from existing datasets and GPT-4o was checked manually to check if whether the sentence is one used by Generation Z. These processes ensured that the dataset is of high quality and representative of what and how Generation Z slang is used.
 
@@ -31,7 +31,7 @@ The model was then trained using SFTTrainer library to simplify the training pro
 \subsection{Model Evaluation}
 The model was evaluated using both automatic and manual evaluation metrics. The model was then prompted to generate a formal sentence for each sentence in the test dataset. The generated sentences were then compared to the formal translation of the sentence using BLEU and ROUGE metrics. The base zephyr-7b-beta model was also prompted to generate sentences for the BLEU and ROUGE metric and the pairwise comparison for human evaluation. Identical answers between the finetuned and the base model were removed to in the test set to ensure that the model is evaluated properly. A total of 144 sentences were used to evaluate the model.
 
-A survey was conducted to compare the finetuned model to the base model to determine if the finetuning was effective. A total of _ participants were involved in the survey, and the survey was conducted online using Google Forms. The survey asked the participants to pick which of the following sentences is the more accurate translation of the given sentence. The order in which sentences from the two models were shown was randomly selected to avoid bias.
+A survey was conducted to compare the finetuned model to the base model to determine if the finetuning was effective. A total of participants were involved in the survey, and the survey was conducted online using Google Forms. The survey asked the participants to pick which of the following sentences is the more accurate translation of the given sentence. The order in which sentences from the two models were shown was randomly selected to avoid bias.
 
 
 \section{Calendar of Activities}

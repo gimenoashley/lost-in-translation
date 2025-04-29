@@ -1,6 +1,8 @@
 %   Filename    : chapter_4.tex 
-\chapter{Results & Discussions}
-
+\chapter{Results \& Discussions}
+\section{Dataset}
+We built a dataset containing a total of 1155 Gen Z internet slang sentences and their corresponding formal translations. The created dataset was then combined with another dataset from Hugging Face that contains 698 Gen Z internet slang and their corresponding formal translation.
+ 
 \section{Model Evaluation}
 \subsection{Model Training}
 The model was trained for 7 epochs before the early stopping callback was triggered because the evaluation metrics has not improved by at least 0.01 for 3 consecutive epochs. This prevented the overfitting seen in the following figure. 

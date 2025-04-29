@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.31)  31 JAN 2025 19:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.31)  29 APR 2025 12:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8,7 +8,7 @@ LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-16>
 
 LaTeX Warning: \include should only be used after \begin{document} on input lin
-e 3.
+e 4.
 
 (preamble.tex
 (C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
@@ -328,23 +328,23 @@ LaTeX Warning: Unused global option(s):
 
 LaTeX Warning: Label `tab:timetableactivities' multiply defined.
 
-) (chapter_4.aux) (appendix_A.aux))
+) (chapter_4.aux) (chapter_5.aux) (appendix_A.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
 
 (C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mki
 i
@@ -491,10 +491,6 @@ n input line 19.
 
 
 [6]
-
-LaTeX Warning: Citation `Ibrahim_Sharief' undefined on input line 26.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 35--35
 []\OT1/cmr/m/n/12 Problem
  []
@@ -824,10 +820,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--52
 \OT1/cmr/m/n/12 us-ing deep
  []
 
-
-LaTeX Warning: Citation `Abdulstar_Ibrahim_Shareef_Mustafa_2023' undefined on i
-nput line 73.
-
 )
 
 [7]
@@ -848,51 +840,54 @@ Chapter 3.
 
 ]
 
-LaTeX Warning: Citation `Zhu_2023' undefined on input line 26.
+LaTeX Warning: Citation `unsloth' undefined on input line 25.
 
 
 
 [11]
-
-[12]
-
-[13]
-Underfull \hbox (badness 4242) in paragraph at lines 128--129
+Underfull \hbox (badness 4242) in paragraph at lines 61--62
 []\OT1/cmr/m/n/12 Identification of po-ten-tial
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--141
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
 []\OT1/cmr/m/n/12 Prototype im-ple-men-ta-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--147
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
 []\OT1/cmr/m/n/12 Implementation of LLM
  []
 
 )
 
-[14]
+[12]
 
-[15]
+[13]
 \openout2 = `chapter_4.aux'.
 
  (chapter_4.tex
 Chapter 4.
-<figures/qlora-snippet.png, id=74, 391.4625pt x 405.01312pt>
-File: figures/qlora-snippet.png Graphic file (type png)
-<use figures/qlora-snippet.png>
-Package pdftex.def Info: figures/qlora-snippet.png  used on input line 9.
-(pdftex.def)             Requested size: 391.46153pt x 405.01212pt.
 
-Overfull \hbox (31.35025pt too wide) in paragraph at lines 20--31
- [][] 
+
+[14
+
+
+
+
+]
+Overfull \hbox (0.7462pt too wide) in paragraph at lines 17--18
+\OT1/cmr/m/n/12 The dataset was au-to-mat-i-cally eval-u-ated us-ing BLEU and R
+OUGE met-rics, specif-
  []
 
+)
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+[15]
+\openout2 = `chapter_5.aux'.
 
+ (chapter_5.tex
+Chapter 5.
 )
 
 [16
@@ -900,11 +895,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
-]
-
-[17 <./figures/qlora-snippet.png>]
-
-[18] (main.bbl
+] (main.bbl
 ! Misplaced alignment tab character &.
 <argument> McKinsey &
                       Company
@@ -949,7 +940,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 267--285
 
 
 
-[19
+[17
 
 
 
@@ -986,17 +977,27 @@ might try typing `S' now just to see what is salvageable.
 
 
 
-[20])
+[18])
 
-[21]
+[19]
 \openout2 = `appendix_A.aux'.
 
  (appendix_A.tex
 Appendix A.
-File: figures/qlora-snippet.png Graphic file (type png)
-<use figures/qlora-snippet.png>
-Package pdftex.def Info: figures/qlora-snippet.png  used on input line 21.
-(pdftex.def)             Requested size: 391.46153pt x 405.01212pt.
+
+! LaTeX Error: File `qlora-snippet' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 	\includegraphics{qlora-snippet}
+                                     
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 
 Overfull \hbox (31.35025pt too wide) in paragraph at lines 28--39
  [][] 
@@ -1007,15 +1008,13 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 )
 
-[22
+[20
 
 
 ]
 
-[23]
-
-[24] (main.aux (title_page.aux) (abstract.aux) (chapter_1.aux) (chapter_2.aux)
-(chapter_3.aux) (chapter_4.aux) (appendix_A.aux))
+[21] (main.aux (title_page.aux) (abstract.aux) (chapter_1.aux) (chapter_2.aux)
+(chapter_3.aux) (chapter_4.aux) (chapter_5.aux) (appendix_A.aux))
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-16>
@@ -1029,13 +1028,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7031 strings out of 473899
- 114321 string characters out of 5726971
+ 7073 strings out of 473899
+ 115388 string characters out of 5726971
  1944960 words of memory out of 5000000
- 29723 multiletter control sequences out of 15000+600000
+ 29758 multiletter control sequences out of 15000+600000
  566628 words of font info for 68 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 79i,10n,84p,1126b,374s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,10n,84p,1089b,374s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\asus\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1
 200.pk><C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
 /cm/cmbx12.pfb><C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/type1/public/
@@ -1044,9 +1043,9 @@ amsfonts/cm/cmcsc10.pfb><C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/type
 ts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/asus/AppData/Local/Programs/MiK
 TeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/asus/AppData/Local/Prog
 rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (30 pages, 173628 bytes).
+Output written on main.pdf (27 pages, 147452 bytes).
 PDF statistics:
- 136 PDF objects out of 1000 (max. 8388607)
+ 124 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
