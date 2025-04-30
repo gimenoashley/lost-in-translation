@@ -2,6 +2,14 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Automatic Evaluation of Dataset using BLEU and ROUGE metrics.}}{15}{}%
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Training Loss}}{15}{}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Validation Loss}}{15}{}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Evaluated using BLEU metric}}{16}{}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Evaluated using ROUGE-L metric}}{16}{}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Form 1 Evaluation}}{18}{}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Form 2 Evaluation}}{19}{}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Form 3 Evaluation}}{20}{}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Form 4 Evaluation}}{21}{}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Form 5 Evaluation}}{22}{}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Summary Evaluation}}{23}{}%
 \addvspace {10\p@ }

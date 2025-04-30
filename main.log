@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.31)  29 APR 2025 13:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.31)  30 APR 2025 22:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -312,12 +312,19 @@ Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 \bframebox=\box58
 \linenoamsmath@ams@eqpen=\count303
 LaTeX Info: Redefining \\ on input line 3180.
+) (C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count304
+\float@exts=\toks31
+\float@box=\box59
+\@float@everytoks=\toks32
+\@floatcapt=\box60
 ))
 (C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdft
 ex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count304
-\l__pdf_internal_box=\box59
+\l__color_backend_stack_int=\count305
+\l__pdf_internal_box=\box61
 )
 
 LaTeX Warning: Unused global option(s):
@@ -328,7 +335,7 @@ LaTeX Warning: Unused global option(s):
 
 LaTeX Warning: Label `tab:timetableactivities' multiply defined.
 
-) (chapter_4.aux) (chapter_5.aux) (appendix_A.aux))
+) (chapter_4.aux) (chapter_5.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
@@ -349,17 +356,17 @@ LaTeX Font Info:    ... okay on input line 7.
 (C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mki
 i
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count305
+\scratchcounter=\count306
 \scratchdimen=\dimen192
-\scratchbox=\box60
-\nofMPsegments=\count306
-\nofMParguments=\count307
-\everyMPshowfont=\toks31
-\MPscratchCnt=\count308
+\scratchbox=\box62
+\nofMPsegments=\count307
+\nofMParguments=\count308
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count309
 \MPscratchDim=\dimen193
-\MPnumerator=\count309
-\makeMPintoPDFobject=\count310
-\everyMPtoPDFconversion=\toks32
+\MPnumerator=\count310
+\makeMPintoPDFobject=\count311
+\everyMPtoPDFconversion=\toks34
 )
 (C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-ba
 se.sty
@@ -387,7 +394,7 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-\c@maskedRefs=\count311
+\c@maskedRefs=\count312
 
 (C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/apacite\english.apc
 File: english.apc 2013/07/21 v6.03 apacite language file
@@ -407,14 +414,12 @@ LaTeX Info: Redefining \BHBI on input line 130.
 
 
 (abstract.tex
-LaTeX Font Info:    Trying to load font information for U+msa on input line 12.
-
+LaTeX Font Info:    Trying to load font information for U+msa on input line 7.
 
 (C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 12.
-
+LaTeX Font Info:    Trying to load font information for U+msb on input line 7.
 
 (C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -856,6 +861,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  (chapter_4.tex
 Chapter 4.
+<figures/TrainLoss.png, id=68, 2055.68pt x 1080.035pt>
+File: figures/TrainLoss.png Graphic file (type png)
+<use figures/TrainLoss.png>
+Package pdftex.def Info: figures/TrainLoss.png  used on input line 13.
+(pdftex.def)             Requested size: 411.12872pt x 216.00317pt.
+<figures/EvaluationLoss.png, id=70, 2055.68pt x 1080.035pt>
+File: figures/EvaluationLoss.png Graphic file (type png)
+<use figures/EvaluationLoss.png>
+Package pdftex.def Info: figures/EvaluationLoss.png  used on input line 18.
+(pdftex.def)             Requested size: 411.12872pt x 216.00317pt.
+<figures/BLEUEvaluation.png, id=71, 2055.68pt x 1080.035pt>
+File: figures/BLEUEvaluation.png Graphic file (type png)
+<use figures/BLEUEvaluation.png>
+Package pdftex.def Info: figures/BLEUEvaluation.png  used on input line 26.
+(pdftex.def)             Requested size: 411.12872pt x 216.00317pt.
+<figures/ROUGELEvaluation.png, id=72, 2055.68pt x 1080.035pt>
+File: figures/ROUGELEvaluation.png Graphic file (type png)
+<use figures/ROUGELEvaluation.png>
+Package pdftex.def Info: figures/ROUGELEvaluation.png  used on input line 31.
+(pdftex.def)             Requested size: 411.12872pt x 216.00317pt.
 
 
 [14
@@ -864,37 +889,81 @@ Chapter 4.
 
 
 ]
-Overfull \hbox (0.7462pt too wide) in paragraph at lines 17--18
+
+[15 <./figures/TrainLoss.png> <./figures/EvaluationLoss.png>]
+
+[16 <./figures/BLEUEvaluation.png> <./figures/ROUGELEvaluation.png>]
+Overfull \hbox (0.7462pt too wide) in paragraph at lines 38--39
 \OT1/cmr/m/n/12 The dataset was au-to-mat-i-cally eval-u-ated us-ing BLEU and R
 OUGE met-rics, specif-
  []
 
-<figures/AutomaticEvaluationMetrics.png, id=71, 697.60625pt x 247.92625pt>
-File: figures/AutomaticEvaluationMetrics.png Graphic file (type png)
-<use figures/AutomaticEvaluationMetrics.png>
-Package pdftex.def Info: figures/AutomaticEvaluationMetrics.png  used on input 
-line 22.
-(pdftex.def)             Requested size: 418.56697pt x 148.7569pt.
+<figures/Form1.png, id=86, 505.89pt x 362.35374pt>
+File: figures/Form1.png Graphic file (type png)
+<use figures/Form1.png>
+Package pdftex.def Info: figures/Form1.png  used on input line 48.
+(pdftex.def)             Requested size: 354.12057pt x 253.64589pt.
 
-Overfull \hbox (3.01448pt too wide) in paragraph at lines 22--23
- [][] 
- []
 
-)
+[17]
+<figures/Form2.png, id=90, 505.89pt x 362.35374pt>
+File: figures/Form2.png Graphic file (type png)
+<use figures/Form2.png>
+Package pdftex.def Info: figures/Form2.png  used on input line 57.
+(pdftex.def)             Requested size: 354.12057pt x 253.64589pt.
 
-[15 <./figures/AutomaticEvaluationMetrics.png>]
+
+[18 <./figures/Form1.png>]
+<figures/Form3.png, id=95, 505.89pt x 362.35374pt>
+File: figures/Form3.png Graphic file (type png)
+<use figures/Form3.png>
+Package pdftex.def Info: figures/Form3.png  used on input line 65.
+(pdftex.def)             Requested size: 354.12057pt x 253.64589pt.
+
+
+[19 <./figures/Form2.png>]
+<figures/Form4.png, id=101, 505.89pt x 362.35374pt>
+File: figures/Form4.png Graphic file (type png)
+<use figures/Form4.png>
+Package pdftex.def Info: figures/Form4.png  used on input line 73.
+(pdftex.def)             Requested size: 354.12057pt x 253.64589pt.
+
+
+[20 <./figures/Form3.png>]
+<figures/Form5.png, id=106, 505.89pt x 362.35374pt>
+File: figures/Form5.png Graphic file (type png)
+<use figures/Form5.png>
+Package pdftex.def Info: figures/Form5.png  used on input line 81.
+(pdftex.def)             Requested size: 354.12057pt x 253.64589pt.
+
+
+[21 <./figures/Form4.png>]
+<figures/Summary.png, id=111, 505.89pt x 362.35374pt>
+File: figures/Summary.png Graphic file (type png)
+<use figures/Summary.png>
+Package pdftex.def Info: figures/Summary.png  used on input line 89.
+(pdftex.def)             Requested size: 354.12057pt x 253.64589pt.
+
+
+[22 <./figures/Form5.png>]
+
+[23 <./figures/Summary.png>])
+
+[24]
 \openout2 = `chapter_5.aux'.
 
  (chapter_5.tex
 Chapter 5.
-)
-
-[16
 
 
+[25
 
 
-] (main.bbl
+
+
+])
+
+[26] (main.bbl
 Underfull \hbox (badness 1931) in paragraph at lines 233--246
 \OT1/cmr/m/n/12 trieved from $\OT1/cmtt/m/n/12 https :// www [] .open [] .edu /
  openlearn / languages / exploring []
@@ -926,7 +995,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 292--310
 
 
 
-[17
+[27
 
 
 
@@ -956,20 +1025,10 @@ ge.
 
 
 
-[18])
+[28])
 
-[19]
-\openout2 = `appendix_A.aux'.
-
- (appendix_A.tex
-Appendix A.
-)
-
-[20
-
-
-] (main.aux (title_page.aux) (abstract.aux) (chapter_1.aux) (chapter_2.aux)
-(chapter_3.aux) (chapter_4.aux) (chapter_5.aux) (appendix_A.aux))
+[29] (main.aux (title_page.aux) (abstract.aux) (chapter_1.aux) (chapter_2.aux)
+(chapter_3.aux) (chapter_4.aux) (chapter_5.aux))
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-16>
@@ -980,10 +1039,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7059 strings out of 473899
- 115107 string characters out of 5726971
+ 7167 strings out of 473899
+ 117019 string characters out of 5726971
  1946960 words of memory out of 5000000
- 29744 multiletter control sequences out of 15000+600000
+ 29855 multiletter control sequences out of 15000+600000
  566628 words of font info for 68 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  79i,10n,84p,1101b,374s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -995,9 +1054,9 @@ amsfonts/cm/cmcsc10.pfb><C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/type
 ts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/asus/AppData/Local/Programs/MiK
 TeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/asus/AppData/Local/Prog
 rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (26 pages, 160743 bytes).
+Output written on main.pdf (35 pages, 708750 bytes).
 PDF statistics:
- 124 PDF objects out of 1000 (max. 8388607)
+ 170 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

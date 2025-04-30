@@ -23,12 +23,11 @@
 \contentsline {section}{\numberline {4.1}Dataset}{14}{}%
 \contentsline {section}{\numberline {4.2}Model Evaluation}{14}{}%
 \contentsline {subsection}{\numberline {4.2.1}Model Training}{14}{}%
-\contentsline {subsection}{\numberline {4.2.2}Text Generation}{15}{}%
-\contentsline {subsection}{\numberline {4.2.3}Automatic Evaluation Metrics}{15}{}%
-\contentsline {subsection}{\numberline {4.2.4}Manual Evaluation Metrics}{15}{}%
-\contentsline {section}{\numberline {4.3}Summary}{15}{}%
-\contentsline {chapter}{\numberline {5}Conclusion}{16}{}%
-\contentsline {section}{\numberline {5.1}Limitations}{16}{}%
-\contentsline {section}{\numberline {5.2}Recommendations}{16}{}%
-\contentsline {chapter}{References}{17}{}%
-\contentsline {chapter}{\numberline {A}Figures and Tables}{20}{}%
+\contentsline {subsection}{\numberline {4.2.2}Text Generation}{17}{}%
+\contentsline {subsection}{\numberline {4.2.3}Automatic Evaluation Metrics}{17}{}%
+\contentsline {subsection}{\numberline {4.2.4}Manual Evaluation Metrics}{17}{}%
+\contentsline {section}{\numberline {4.3}Summary}{23}{}%
+\contentsline {chapter}{\numberline {5}Conclusion}{25}{}%
+\contentsline {section}{\numberline {5.1}Limitations}{25}{}%
+\contentsline {section}{\numberline {5.2}Recommendations}{26}{}%
+\contentsline {chapter}{References}{27}{}%
